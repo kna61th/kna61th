@@ -1,0 +1,17 @@
+#container {
+	width:100%;
+}
+#header {
+	background-color:#FFA500;
+}
+#menu {
+	background-color:#FFD700;
+	height:100%;
+	width:auto;
+	float:left;
+}
+#content {
+	background-color:#EEEEEE;
+	height:100%;
+	width:100%;
+}	

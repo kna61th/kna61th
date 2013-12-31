@@ -15,7 +15,8 @@ var isVideoMuted = false;
 // show the local video
 function startVideo() {
 
-    navigator.webkitGetUserMedia({video: true, audio: true}, successCallback, errorCallback);
+    navigator.getUserMedia = navigator.mozGetUserMedia || navigator.webkitGetUserMedia || navigator.msGetUserMedia;
+    navigator.getUserMedia({video: true, audio: true}, successCallback, errorCallback);
     function successCallback(stream) {
         localStream = stream;
         try {

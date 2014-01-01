@@ -1,6 +1,6 @@
 // create socket
-var socket = io.connect('http://' + window.location.host + ':8080/');
-
+//var socket = io.connect('http://' + window.location.host + ':8080/');
+var socket = io.connect('http://kna61th.github.io');
 var sourcevid = document.getElementById('sourcevideo');
 var remotevid = document.getElementById('remotevideo');
 var localStream = null;

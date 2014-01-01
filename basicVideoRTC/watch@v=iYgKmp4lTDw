@@ -1,0 +1,1190 @@
+<!DOCTYPE html><html lang="ko" data-cast-api-enabled="true"><head><script>var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},span: {},info: {}});},tick: function(l, t, n) {ytcsi.gt(n).tick[l] = t || +new Date();},span: function(l, s, n) {ytcsi.gt(n).span[l] = (typeof s == 'number') ? s :+new Date() - ytcsi.data_.tick[l];},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;}};(function() {var perf = window['performance'] || window['mozPerformance'] ||window['msPerformance'] || window['webkitPerformance'];ytcsi.tick('_start', perf ? perf['timing']['responseStart'] : null);})();if (document.webkitVisibilityState == 'prerender') {ytcsi.info('prerender', 1);document.addEventListener('webkitvisibilitychange', function() {ytcsi.tick('_start');}, false);}try {ytcsi.pt_ = (window.chrome && chrome.csi().pageT ||window.gtbExternal && gtbExternal.pageT() ||window.external && external.pageT);if (ytcsi.pt_) {ytcsi.info('pt', Math.floor(ytcsi.pt_));}} catch(e) {}</script>    <script>var ytimg = {};ytimg.count = 1;ytimg.preload = function(src) {var img = new Image();var count = ++ytimg.count;ytimg[count] = img;img.onload = img.onerror = function() {delete ytimg[count];};img.src = src;};</script>
+
+  <link id="css-344564990" class="www-core" rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-core-vfl4DqC20.css" data-loaded="true">
+<script>if (window.ytcsi) {window.ytcsi.tick("ce", null, '');}</script>  
+      <script>
+    ytimg.preload("http:\/\/r3---sn-3pom-bh2l.googlevideo.com\/crossdomain.xml");
+    ytimg.preload("http:\/\/r3---sn-3pom-bh2l.googlevideo.com\/generate_204");
+  </script>
+
+
+  <script>
+try {var ytbuffer = {};ytbuffer.bufferedClick;ytbuffer.handleClick = function(e) {var element = e.target || e.srcElement;while (element.parentElement) {if (element.className.match(/^yt-can-buffer$|^yt-can-buffer | yt-can-buffer$| yt-can-buffer /)) {ytbuffer.bufferedClick = e;element.className += ' yt-is-buffered';break;}element = element.parentElement;}};if (document.addEventListener) {document.addEventListener('click', ytbuffer.handleClick);} else {document.attachEvent('onclick', ytbuffer.handleClick);}} catch(e) {}  </script>
+<title>WebRTC Keynote:  Hugh Finnan, Google Chrome - YouTube</title><link rel="search" type="application/opensearchdescription+xml" href="http://www.youtube.com/opensearch?locale=ko_KR" title="YouTube 동영상 검색"><link rel="shortcut icon" href="http://s.ytimg.com/yts/img/favicon-vfldLzJxy.ico" type="image/x-icon">     <link rel="icon" href="//s.ytimg.com/yts/img/favicon_32-vflWoMFGx.png" sizes="32x32"><link rel="canonical" href="http://www.youtube.com/watch?v=iYgKmp4lTDw"><link rel="alternate" media="handheld" href="http://m.youtube.com/watch?v=iYgKmp4lTDw"><link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.youtube.com/watch?v=iYgKmp4lTDw"><link rel="shortlink" href="http://youtu.be/iYgKmp4lTDw">      <meta name="title" content="WebRTC Keynote: Hugh Finnan, Google Chrome">
+
+      <meta name="description" content="Hugh Finnan, Director of Product Management, Google Chrome talks WebRTC at the WebRTC conference and Expo. Check out http://www.webrtcworld.com/ for more inf...">
+
+      <meta name="keywords" content="webrtc, google, video, mozilla, conference, UC, chrome, Firefox">
+
+      <link rel="alternate" type="application/json+oembed" href="http://www.youtube.com/oembed?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DiYgKmp4lTDw&amp;format=json" title="WebRTC Keynote: Hugh Finnan, Google Chrome">
+  <link rel="alternate" type="text/xml+oembed" href="http://www.youtube.com/oembed?url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DiYgKmp4lTDw&amp;format=xml" title="WebRTC Keynote: Hugh Finnan, Google Chrome">
+
+        <meta property="og:site_name" content="YouTube">
+    <meta property="og:url" content="http://www.youtube.com/watch?v=iYgKmp4lTDw">
+    <meta property="og:title" content="WebRTC Keynote: Hugh Finnan, Google Chrome">
+    <meta property="og:type" content="video">
+    <meta property="og:image" content="http://i1.ytimg.com/vi/iYgKmp4lTDw/maxresdefault.jpg">
+
+      <meta property="og:description" content="Hugh Finnan, Director of Product Management, Google Chrome talks WebRTC at the WebRTC conference and Expo. Check out http://www.webrtcworld.com/ for more inf...">
+
+        <meta property="og:video" content="http://www.youtube.com/v/iYgKmp4lTDw?autohide=1&amp;version=3">
+      <meta property="og:video:type" content="application/x-shockwave-flash">
+      <meta property="og:video:width" content="1920">
+      <meta property="og:video:height" content="1080">
+
+    <meta property="fb:app_id" content="87741124305">
+
+        <meta name="twitter:card" content="player">
+    <meta name="twitter:site" content="@youtube">
+    <meta name="twitter:url" content="http://www.youtube.com/watch?v=iYgKmp4lTDw">
+    <meta name="twitter:title" content="WebRTC Keynote: Hugh Finnan, Google Chrome">
+    <meta name="twitter:description" content="Hugh Finnan, Director of Product Management, Google Chrome talks WebRTC at the WebRTC conference and Expo. Check out http://www.webrtcworld.com/ for more inf...">
+    <meta name="twitter:image" content="http://i1.ytimg.com/vi/iYgKmp4lTDw/maxresdefault.jpg">
+    <meta name="twitter:app:name:iphone" content="YouTube">
+    <meta name="twitter:app:id:iphone" content="544007664">
+    <meta name="twitter:app:name:ipad" content="YouTube">
+    <meta name="twitter:app:id:ipad" content="544007664">
+      <meta name="twitter:app:url:iphone" content="vnd.youtube://watch/iYgKmp4lTDw">
+      <meta name="twitter:app:url:ipad" content="vnd.youtube://watch/iYgKmp4lTDw">
+    <meta name="twitter:app:name:googleplay" content="YouTube">
+    <meta name="twitter:app:id:googleplay" content="com.google.android.youtube">
+    <meta name="twitter:app:url:googleplay" content="http://www.youtube.com/watch?v=iYgKmp4lTDw">
+      <meta name="twitter:player" content="https://www.youtube.com/embed/iYgKmp4lTDw">
+      <meta name="twitter:player:width" content="1920">
+      <meta name="twitter:player:height" content="1080">
+
+      <meta name=attribution content=iDBY1k3B8_LTTK0xf1NKjg/>  
+<script>if (window.ytcsi) {window.ytcsi.tick("cl", null, '');}</script></head><!-- machid: tMjc0R0FHbDFXU290ckI2WXBKaHlwUXR1SkprMGk3b1RXLVlNNGNkNjhHYUNLNmhyMzNVVTBn -->    <body dir="ltr" class="  ltr       site-left-aligned   hitchhiker-enabled      guide-enabled guide-collapsed sidebar-expanded   " id="body">
+
+  <div id="body-container"><form name="logoutForm" method="POST" action="/logout"><input type="hidden" name="action_logout" value="1"></form>    
+    
+    <div id="yt-masthead-container" class="yt-grid-box yt-base-gutter"><div id="yt-masthead" class="">    <a id="logo-container" href="/" title="YouTube 홈" class=" "><img id="logo" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="YouTube 홈"><span class="content-region">KR</span></a>
+<div id="yt-masthead-signin"><button class=" yt-uix-button yt-uix-button-primary yt-uix-button-size-default" type="button" href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3Dsign_in_button%26hl%3Dko%26next%3D%252Fwatch%253Fv%253DiYgKmp4lTDw&amp;hl=ko&amp;uilel=3&amp;service=youtube" onclick=";window.location.href=this.getAttribute(&#39;href&#39;);return false;"  role="button"><span class="yt-uix-button-content">로그인 </span></button></div><div id="yt-masthead-content"><span id="masthead-upload-button-group"><a href="//www.youtube.com/upload" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="feature=mhsb&amp;ei=oWbCUquyD-vOmAXqkICoCA"><span class="yt-uix-button-content">업로드 </span></a></span><form id="masthead-search" class="search-form consolidated-form" action="/results" onsubmit="if (_gel(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false;"><button class="search-btn-component search-button yt-uix-button yt-uix-button-default yt-uix-button-size-default" tabindex="2" onclick="if (_gel(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false; _gel(&#39;masthead-search&#39;).submit(); return false;;return true;" type="submit" dir="ltr" id="search-btn"  role="button"><span class="yt-uix-button-content">검색 </span></button><div id="masthead-search-terms" class="masthead-search-terms-border" dir="ltr"><label><input id="masthead-search-term" autocomplete="off"  class="search-term yt-uix-form-input-bidi" name="search_query" value="" type="text" tabindex="1" title="검색"></label></div></form></div></div></div>
+    
+  <div id="alerts" class="content-alignment">
+        <div class="yt-alert yt-alert-default yt-alert-info  " id="yt-lang-alert-container">  <div class="yt-alert-icon">
+    <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" class="icon master-sprite" alt="알림 아이콘">
+  </div>
+<div class="yt-alert-buttons"><button class="close yt-uix-close yt-uix-button yt-uix-button-close yt-uix-button-size-default" type="button" onclick=";return false;" data-close-parent-class="yt-alert" role="button"><span class="yt-uix-button-content">닫기 </span></button></div><div class="yt-alert-content" role="alert">    <span class="yt-alert-vertical-trick"></span>
+    <div class="yt-alert-message">
+            기본 언어가 설정되었습니다.
+
+    </div>
+</div><div class="yt-alert-panel ">  <div class="yt-grid-box">
+    <div id="yt-lang-alert-text">
+      <span id="default-language-message">
+언어 설정이 <strong>한국어</strong>로 설정되어 있습니다. <a href="#" onclick="yt.www.picker.displayLang();">아래에서 이 설정을 업데이트</a>할 수 있습니다.
+      </span>
+      <span id="default-language-message-english" class="hid">
+        We've set your language preference to <strong>Korean</strong>. You can <a href="#" onclick="yt.www.picker.displayLang();">update this preference below</a>.
+      </span>
+    </div>
+    <div id="yt-lang-alert-links">
+      <a href="//support.google.com/youtube/bin/answer.py?answer=1738660&amp;hl=en">Learn more</a><br>
+        <a href="#" onclick="yt.style.toggle('default-language-message', 'default-language-message-english'); return false;">View this message in English</a>
+    </div>
+  </div>
+</div></div>
+    
+
+
+
+
+
+  </div>
+  <div id="header">
+    
+  </div>
+<div id="page-container"><div id="page" class="  watch   clearfix"><div id="guide" >      <div id="guide-container" class="    collapsible-guide  loading">
+    <div id="guide-main" class="    guide-module collapsed     spf-nolink   yt-uix-tdl ">
+      <div id="guide-loading-toggle" class="guide-module-toggle">
+        <span class="guide-module-toggle-icon">
+          <span class="guide-module-toggle-arrow"></span>
+          <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="">
+        </span>
+        <div class="guide-module-toggle-label">
+          <h3>
+            <span>
+가이드
+            </span>
+          </h3>
+        </div>
+      </div>
+      <div class="guide-module-content guide-module-loading">
+          <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="로드 중 아이콘" title="">
+
+    <span class="yt-spinner-message">
+로드 중...
+    </span>
+  </p>
+
+      </div>
+    </div>
+  </div>
+
+</div><div id="player" class="      watch-small  ">
+  <div id="playlist" class="playlist">
+    
+  </div>
+
+  <div id="player-unavailable" class="    hid    player-width player-height    player-unavailable ">
+          <img class="icon meh" src="//s.ytimg.com/yts/img/meh7-vflGevej7.png" alt="">
+  <div class="content">
+    <h1 id="unavailable-message" class="message">
+            동영상을 볼 수 없습니다.
+    </h1>
+    <div id="unavailable-submessage" class="submessage">
+    </div>
+  </div>
+
+
+  </div>
+
+    <div id="player-api" class="player-width player-height off-screen-target watch-content player-api"></div>
+
+
+    <script>if (window.ytcsi) {window.ytcsi.tick("bf", null, '');}</script>
+    <script>var ytplayer = ytplayer || {};ytplayer.config = {"min_version": "8.0.0", "assets": {"html": "\/html5_player_template", "css": "\/\/s.ytimg.com\/yts\/cssbin\/www-player-vflBjKccE.css", "js": "\/\/s.ytimg.com\/yts\/jsbin\/html5player-vflG49soT.js"}, "url_v8": "http:\/\/s.ytimg.com\/yts\/swfbin\/player-vflqv4MLv\/cps.swf", "params": {"allowscriptaccess": "always", "bgcolor": "#000000", "allowfullscreen": "true"}, "args": {"max_dynamic_allocation_ad_tag_length": 2040, "adsense_video_doc_id": "yt_iYgKmp4lTDw", "csi_page_type": "watch,watch7ad", "idpj": "-8", "adaptive_fmts": "itag=137\u0026size=1920x1080\u0026init=0-709\u0026url=http%3A%2F%2Fr3---sn-3pom-bh2l.googlevideo.com%2Fvideoplayback%3Fmt%3D1388471883%26mv%3Dm%26ms%3Dau%26source%3Dyoutube%26clen%3D557443420%26sver%3D3%26algorithm%3Dthrottle-factor%26gir%3Dyes%26factor%3D1.25%26id%3D89880a9a9e254c3c%26signature%3D2531F4645F82DE281813F5471449332AC815FC12.48D74E1B343F614250A37092C225E8ADF263D145%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Csource%252Cupn%252Cexpire%26upn%3DNP2OucCPpcc%26ip%3D49.1.209.214%26lmt%3D1380650328277576%26expire%3D1388495155%26dur%3D2007.672%26ipbits%3D0%26key%3Dyt5%26itag%3D137%26fexp%3D907050%252C919112%252C930802%252C916623%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26burst%3D40\u0026bitrate=3637691\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.640028%22\u0026index=710-5553,itag=264\u0026size=1920x1080\u0026init=0-708\u0026url=http%3A%2F%2Fr3---sn-3pom-bh2l.googlevideo.com%2Fvideoplayback%3Fmt%3D1388471883%26mv%3Dm%26ms%3Dau%26source%3Dyoutube%26clen%3D911732828%26sver%3D3%26algorithm%3Dthrottle-factor%26gir%3Dyes%26factor%3D1.25%26id%3D89880a9a9e254c3c%26signature%3DCA683F62B1F5F729DA3F83DFD947992324CFB91B.71360BF014F1EE65E0069D990853A41C97310973%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Csource%252Cupn%252Cexpire%26upn%3DNP2OucCPpcc%26ip%3D49.1.209.214%26lmt%3D1380648988496232%26expire%3D1388495155%26dur%3D2007.672%26ipbits%3D0%26key%3Dyt5%26itag%3D264%26fexp%3D907050%252C919112%252C930802%252C916623%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26burst%3D40\u0026bitrate=5950150\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d4028%22\u0026index=709-5552,itag=136\u0026size=1280x720\u0026init=0-707\u0026url=http%3A%2F%2Fr3---sn-3pom-bh2l.googlevideo.com%2Fvideoplayback%3Fmt%3D1388471883%26mv%3Dm%26ms%3Dau%26source%3Dyoutube%26clen%3D309364383%26sver%3D3%26algorithm%3Dthrottle-factor%26gir%3Dyes%26factor%3D1.25%26id%3D89880a9a9e254c3c%26signature%3D797DAE1D529BF07009B63171D753E836D1F5DDD0.2E028170C49CC0F629DDB90416499D9FB1EF2325%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Csource%252Cupn%252Cexpire%26upn%3DNP2OucCPpcc%26ip%3D49.1.209.214%26lmt%3D1380649288939759%26expire%3D1388495155%26dur%3D2007.672%26ipbits%3D0%26key%3Dyt5%26itag%3D136%26fexp%3D907050%252C919112%252C930802%252C916623%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26burst%3D40\u0026bitrate=2663859\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401f%22\u0026index=708-5551,itag=135\u0026size=854x480\u0026init=0-707\u0026url=http%3A%2F%2Fr3---sn-3pom-bh2l.googlevideo.com%2Fvideoplayback%3Fmt%3D1388471883%26mv%3Dm%26ms%3Dau%26source%3Dyoutube%26clen%3D156870652%26sver%3D3%26algorithm%3Dthrottle-factor%26gir%3Dyes%26factor%3D1.25%26id%3D89880a9a9e254c3c%26signature%3DA33DEBD4D73854FD5EDB31C22FE6E6C07282C1A5.546C6C5858EAB47994118280783BF0F66AA539AF%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Csource%252Cupn%252Cexpire%26upn%3DNP2OucCPpcc%26ip%3D49.1.209.214%26lmt%3D1380647995115731%26expire%3D1388495155%26dur%3D2007.672%26ipbits%3D0%26key%3Dyt5%26itag%3D135%26fexp%3D907050%252C919112%252C930802%252C916623%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26burst%3D40\u0026bitrate=2219410\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401e%22\u0026index=708-5551,itag=134\u0026size=640x360\u0026init=0-707\u0026url=http%3A%2F%2Fr3---sn-3pom-bh2l.googlevideo.com%2Fvideoplayback%3Fmt%3D1388471883%26mv%3Dm%26ms%3Dau%26source%3Dyoutube%26clen%3D74293726%26sver%3D3%26algorithm%3Dthrottle-factor%26gir%3Dyes%26factor%3D1.25%26id%3D89880a9a9e254c3c%26signature%3D96C64BA125ED615497A94DF9EEBE323927E0D7C7.AC971FCAEDA0C4CD1A3705280FC8F3625852A701%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Csource%252Cupn%252Cexpire%26upn%3DNP2OucCPpcc%26ip%3D49.1.209.214%26lmt%3D1380648521931151%26expire%3D1388495155%26dur%3D2007.672%26ipbits%3D0%26key%3Dyt5%26itag%3D134%26fexp%3D907050%252C919112%252C930802%252C916623%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26burst%3D40\u0026bitrate=1308389\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401e%22\u0026index=708-5551,itag=133\u0026size=426x240\u0026init=0-671\u0026url=http%3A%2F%2Fr3---sn-3pom-bh2l.googlevideo.com%2Fvideoplayback%3Fmt%3D1388471883%26mv%3Dm%26ms%3Dau%26source%3Dyoutube%26clen%3D53686245%26sver%3D3%26algorithm%3Dthrottle-factor%26gir%3Dyes%26factor%3D1.25%26id%3D89880a9a9e254c3c%26signature%3D42DCB6FFC606AAB64C6AC8D81E0AA852806D4457.C929EDC2BC406E34034419E33777E1BC5A6B8BA2%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Csource%252Cupn%252Cexpire%26upn%3DNP2OucCPpcc%26ip%3D49.1.209.214%26lmt%3D1380649355566882%26expire%3D1388495155%26dur%3D2007.672%26ipbits%3D0%26key%3Dyt5%26itag%3D133%26fexp%3D907050%252C919112%252C930802%252C916623%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26burst%3D40\u0026bitrate=351144\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d4015%22\u0026index=672-5515,itag=160\u0026size=256x144\u0026init=0-670\u0026url=http%3A%2F%2Fr3---sn-3pom-bh2l.googlevideo.com%2Fvideoplayback%3Fmt%3D1388471883%26mv%3Dm%26ms%3Dau%26source%3Dyoutube%26clen%3D25663919%26sver%3D3%26algorithm%3Dthrottle-factor%26gir%3Dyes%26factor%3D1.25%26id%3D89880a9a9e254c3c%26signature%3D81B2BB8AF9F96A15F156CB15605033C9CF34C929.B3A57545B9FE89C4EF9549F0583049086D2DFFE2%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Csource%252Cupn%252Cexpire%26upn%3DNP2OucCPpcc%26ip%3D49.1.209.214%26lmt%3D1380648641371426%26expire%3D1388495155%26dur%3D2007.672%26ipbits%3D0%26key%3Dyt5%26itag%3D160%26fexp%3D907050%252C919112%252C930802%252C916623%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26burst%3D40\u0026bitrate=140576\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.42c00c%22\u0026index=671-5514,itag=139\u0026init=0-592\u0026url=http%3A%2F%2Fr3---sn-3pom-bh2l.googlevideo.com%2Fvideoplayback%3Fmt%3D1388471883%26mv%3Dm%26ms%3Dau%26source%3Dyoutube%26clen%3D11940534%26sver%3D3%26algorithm%3Dthrottle-factor%26gir%3Dyes%26factor%3D1.25%26id%3D89880a9a9e254c3c%26signature%3DD3528C97ADA66584B5EFD3B73D374685AFED0E9D.E79E15625A075A49DE672187530FF575B8ED8418%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Csource%252Cupn%252Cexpire%26upn%3DNP2OucCPpcc%26ip%3D49.1.209.214%26lmt%3D1380649239709354%26expire%3D1388495155%26dur%3D2007.829%26ipbits%3D0%26key%3Dyt5%26itag%3D139%26fexp%3D907050%252C919112%252C930802%252C916623%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26burst%3D40\u0026bitrate=50079\u0026type=audio%2Fmp4%3B+codecs%3D%22mp4a.40.5%22\u0026index=593-3036,itag=140\u0026init=0-591\u0026url=http%3A%2F%2Fr3---sn-3pom-bh2l.googlevideo.com%2Fvideoplayback%3Fmt%3D1388471883%26mv%3Dm%26ms%3Dau%26source%3Dyoutube%26clen%3D23857128%26sver%3D3%26algorithm%3Dthrottle-factor%26gir%3Dyes%26factor%3D1.25%26id%3D89880a9a9e254c3c%26signature%3D1F3AF4633F2D6A5FDC302CE02867C9243255E9C6.A7278742B71D74D362A44738D03C3C29529E20C1%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Csource%252Cupn%252Cexpire%26upn%3DNP2OucCPpcc%26ip%3D49.1.209.214%26lmt%3D1380648861485531%26expire%3D1388495155%26dur%3D2007.782%26ipbits%3D0%26key%3Dyt5%26itag%3D140%26fexp%3D907050%252C919112%252C930802%252C916623%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26burst%3D40\u0026bitrate=97520\u0026type=audio%2Fmp4%3B+codecs%3D%22mp4a.40.2%22\u0026index=592-3035", "show_content_thumbnail": true, "aftv": true, "iv3_module": "1", "no_get_video_log": "1", "ad_channel_code_instream": "afv_instream,Vertical_5,Vertical_13,Vertical_32,Vertical_304,Vertical_807,Vertical_901,afv_instream_kr,yt_mpvid_AATuztKCd9JBASRq,yt_cid_3138177,ivp,ytdevice_1,ytps_default,ytel_detailpage", "allowed_ads": [8, 1, 2, 10, 0], "account_playback_token": "uCV7RAwLkqx0F0PepKPbDBgsg0h8MTM4ODU1ODM2OUAxMzg4NDcxOTY5", "ad_preroll": "1", "c": "WEB", "ad_eurl": "http:\/\/www.youtube.com\/video\/iYgKmp4lTDw", "url_encoded_fmt_stream_map": "itag=22\u0026sig=BDC9C1E318324DD224A59B0D722F38049E6DB2F5.86154B2CCCEE33D1A472C504652F7DBF1CC6BC1E\u0026url=http%3A%2F%2Fr3---sn-3pom-bh2l.googlevideo.com%2Fvideoplayback%3Fipbits%3D0%26mt%3D1388471883%26itag%3D22%26fexp%3D907050%252C919112%252C930802%252C916623%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26ms%3Dau%26source%3Dyoutube%26upn%3D2mEd_TaTSDI%26mv%3Dm%26ratebypass%3Dyes%26sver%3D3%26expire%3D1388495155%26key%3Dyt5%26id%3D89880a9a9e254c3c%26ip%3D49.1.209.214%26sparams%3Did%252Cip%252Cipbits%252Citag%252Cratebypass%252Csource%252Cupn%252Cexpire\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.64001F%2C+mp4a.40.2%22\u0026quality=hd720\u0026fallback_host=tc.v12.cache3.googlevideo.com,itag=18\u0026sig=F58709553864DBB63C665841B10E98BACC28FFF1.1C7A382BD749F37C68EB85B1B503E98FBF77E1B8\u0026url=http%3A%2F%2Fr3---sn-3pom-bh2l.googlevideo.com%2Fvideoplayback%3Fipbits%3D0%26mt%3D1388471883%26itag%3D18%26fexp%3D907050%252C919112%252C930802%252C916623%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26ms%3Dau%26source%3Dyoutube%26upn%3D2mEd_TaTSDI%26mv%3Dm%26ratebypass%3Dyes%26sver%3D3%26expire%3D1388495155%26key%3Dyt5%26id%3D89880a9a9e254c3c%26ip%3D49.1.209.214%26sparams%3Did%252Cip%252Cipbits%252Citag%252Cratebypass%252Csource%252Cupn%252Cexpire\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.42001E%2C+mp4a.40.2%22\u0026quality=medium\u0026fallback_host=tc.v10.cache8.googlevideo.com,itag=5\u0026sig=8E3B1E1BB5A58CF9E913141AD445B6348C0FB751.19AC0295B4772F01D61893708AC74719137F678A\u0026url=http%3A%2F%2Fr3---sn-3pom-bh2l.googlevideo.com%2Fvideoplayback%3Fipbits%3D0%26mt%3D1388471883%26itag%3D5%26fexp%3D907050%252C919112%252C930802%252C916623%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26ms%3Dau%26source%3Dyoutube%26upn%3D2mEd_TaTSDI%26mv%3Dm%26ip%3D49.1.209.214%26sver%3D3%26burst%3D40%26algorithm%3Dthrottle-factor%26factor%3D1.25%26key%3Dyt5%26id%3D89880a9a9e254c3c%26expire%3D1388495155%26sparams%3Dalgorithm%252Cburst%252Cfactor%252Cid%252Cip%252Cipbits%252Citag%252Csource%252Cupn%252Cexpire\u0026type=video%2Fx-flv\u0026quality=small\u0026fallback_host=tc.v5.cache1.googlevideo.com,itag=36\u0026sig=9614F216E41585F7A7475FE636B651F2A24B6C4C.01E064A925605D8A44B6A88E928C8264D83F9734\u0026url=http%3A%2F%2Fr3---sn-3pom-bh2l.googlevideo.com%2Fvideoplayback%3Fipbits%3D0%26mt%3D1388471883%26itag%3D36%26fexp%3D907050%252C919112%252C930802%252C916623%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26ms%3Dau%26source%3Dyoutube%26upn%3D2mEd_TaTSDI%26mv%3Dm%26ip%3D49.1.209.214%26sver%3D3%26burst%3D40%26algorithm%3Dthrottle-factor%26factor%3D1.25%26key%3Dyt5%26id%3D89880a9a9e254c3c%26expire%3D1388495155%26sparams%3Dalgorithm%252Cburst%252Cfactor%252Cid%252Cip%252Cipbits%252Citag%252Csource%252Cupn%252Cexpire\u0026type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22\u0026quality=small\u0026fallback_host=tc.v15.cache2.googlevideo.com,itag=17\u0026sig=55D57C52C8D74C6A7349D22A4C4FB32EBBEB1C4B.F56666954D08B9086B9A831CE588510583B89682\u0026url=http%3A%2F%2Fr3---sn-3pom-bh2l.googlevideo.com%2Fvideoplayback%3Fipbits%3D0%26mt%3D1388471883%26itag%3D17%26fexp%3D907050%252C919112%252C930802%252C916623%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26ms%3Dau%26source%3Dyoutube%26upn%3D2mEd_TaTSDI%26mv%3Dm%26ip%3D49.1.209.214%26sver%3D3%26burst%3D40%26algorithm%3Dthrottle-factor%26factor%3D1.25%26key%3Dyt5%26id%3D89880a9a9e254c3c%26expire%3D1388495155%26sparams%3Dalgorithm%252Cburst%252Cfactor%252Cid%252Cip%252Cipbits%252Citag%252Csource%252Cupn%252Cexpire\u0026type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22\u0026quality=small\u0026fallback_host=tc.v7.cache5.googlevideo.com", "mpvid": "AATuztKCd9JBASRq", "as_launched_in_country": "1", "storyboard_spec": "http:\/\/i1.ytimg.com\/sb\/iYgKmp4lTDw\/storyboard3_L$L\/$N.jpg|48#27#100#10#10#0#default#o8g0T3QUMVzfzbGlMFicSgxYEgs|80#45#202#10#10#10000#M$M#NKzeL-GZphtpQkNToBuIiMI2eGI|160#90#202#5#5#10000#M$M#Sm4zf8ysTwq-uEFxb9biew9TqtY", "hl": "ko_KR", "ad_channel_code_overlay": "invideo_overlay_480x70_cat28,afv_overlay,Vertical_5,Vertical_13,Vertical_32,Vertical_304,Vertical_807,Vertical_901,yt_mpvid_AATuztKCd9JBASRq,yt_cid_3138177,ivp,ytdevice_1,ytps_default,ytel_detailpage", "enablejsapi": 1, "dash": "1", "title": "WebRTC Keynote:  Hugh Finnan, Google Chrome", "afv_ad_tag": "http:\/\/googleads.g.doubleclick.net\/pagead\/ads?max_ad_duration=15000\u0026hl=ko\u0026ad_type=skippablevideo\u0026description_url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FiYgKmp4lTDw\u0026ht_id=3537610\u0026client=ca-pub-6219811747049371\u0026url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FiYgKmp4lTDw\u0026channel=afv_instream%2BVertical_5%2BVertical_13%2BVertical_32%2BVertical_304%2BVertical_807%2BVertical_901%2Bafv_instream_kr%2Byt_mpvid_AATuztKCd9JBASRq%2Byt_cid_3138177%2Bivp%2Bytdevice_1%2Bytps_default%2Bytel_detailpage\u0026host=ca-host-pub-8317963745003590\u0026ytdevice=1\u0026video_cpm=2690000\u0026loeid=907050%2C919112%2C930802%2C916623\u0026yt_pt=APb3F2_wX9pGsOBSJ6GaRCPZ8lf5zUdFyBBPMgfkD8trywcFqfer2SaAMw-gXGi_EX-Aw_o3witaaYWzyy7kWKhFL980chCDm-jx65CCXWu9Vrab44ntTMSpZ7KVXLhGYg94XBvj6JnXHfGPsrv0", "host_language": "ko", "vq": "auto", "ad_video_pub_id": "ca-pub-6219811747049371", "ad3_module": "1", "ad_logging_flag": 1, "keywords": "webrtc,google,video,mozilla,conference,UC,chrome,Firefox", "afv_invideo_ad_tag": "http:\/\/googleads.g.doubleclick.net\/pagead\/ads?max_ad_duration=15000\u0026hl=ko\u0026ad_type=text_image_flash\u0026description_url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FiYgKmp4lTDw\u0026ht_id=3537610\u0026client=ca-pub-6219811747049371\u0026url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FiYgKmp4lTDw\u0026channel=invideo_overlay_480x70_cat28%2Bafv_overlay%2BVertical_5%2BVertical_13%2BVertical_32%2BVertical_304%2BVertical_807%2BVertical_901%2Byt_mpvid_AATuztKCd9JBASRq%2Byt_cid_3138177%2Bivp%2Bytdevice_1%2Bytps_default%2Bytel_detailpage\u0026host=ca-host-pub-8317963745003590\u0026ytdevice=1\u0026loeid=907050%2C919112%2C930802%2C916623", "ptk": "iDBY1k3B8_LTTK0xf1NKjg", "midroll_freqcap": 270.0, "ad_device": 1, "watermark": ",http:\/\/s.ytimg.com\/yts\/img\/watermark\/youtube_watermark-vflHX6b6E.png,http:\/\/s.ytimg.com\/yts\/img\/watermark\/youtube_hd_watermark-vflAzLcD6.png", "ldpj": "-12", "tmi": "1", "loeid": "907050,919112,930802,916623", "cid": 3138177, "enablecsi": "1", "ad_tag": "http:\/\/ad.doubleclick.net\/N4061\/pfadx\/com.ytpwatch.scitech\/main_3138177;sz=WIDTHxHEIGHT;kvid=iYgKmp4lTDw;kpu=TMCnetVideos;kpeid=iDBY1k3B8_LTTK0xf1NKjg;kpid=3138177;mpvid=AATuztKCd9JBASRq;afv=1;dc_yt=1;k5=5_13_32_304_807_901;kclg=1;kclt=1;kga=-1;kgg=-1;klg=ko;ko=p;kr=H;kvz=203;nlfb=1;yt_vrallowed=1;ytcat=28;ytdevice=1;ytexp=907050,919112,930802,916623;!c=3138177;k2=5;k2=13;k2=32;k2=304;k2=807;k2=901;kvlg=en;", "yt_pt": "APb3F2_wX9pGsOBSJ6GaRCPZ8lf5zUdFyBBPMgfkD8trywcFqfer2SaAMw-gXGi_EX-Aw_o3witaaYWzyy7kWKhFL980chCDm-jx65CCXWu9Vrab44ntTMSpZ7KVXLhGYg94XBvj6JnXHfGPsrv0", "t": "vjVQa1PpcFPQL9nrPwUcaXkcTR9_YW3USVBSpxJFOiA=", "plid": "AATuztKCJALGKZyY", "ad_host_tier": "3537610", "sendtmp": "1", "loaderUrl": "http:\/\/www.youtube.com\/watch?v=iYgKmp4lTDw", "video_id": "iYgKmp4lTDw", "trueview": true, "gut_tag": "\/4061\/ytpwatch\/main_3138177", "afv_ad_tag_restricted_to_instream": "http:\/\/googleads.g.doubleclick.net\/pagead\/ads?max_ad_duration=15000\u0026hl=ko\u0026ad_type=skippablevideo\u0026description_url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FiYgKmp4lTDw\u0026ht_id=3537610\u0026client=ca-pub-6219811747049371\u0026url=http%3A%2F%2Fwww.youtube.com%2Fvideo%2FiYgKmp4lTDw\u0026channel=afv_instream%2BVertical_5%2BVertical_13%2BVertical_32%2BVertical_304%2BVertical_807%2BVertical_901%2Bafv_instream_kr%2Byt_mpvid_AATuztKCd9JBASRq%2Byt_cid_3138177%2Bivp%2Bytdevice_1%2Bytps_default%2Bytel_detailpage\u0026host=ca-host-pub-8317963745003590\u0026ytdevice=1\u0026video_cpm=2690000\u0026loeid=907050%2C919112%2C930802%2C916623", "timestamp": 1388471969, "invideo": true, "ad_host": "ca-host-pub-8317963745003590", "ad_slots": "0", "sffb": true, "dclk": true, "mpu": true, "afv_instream_max": 15000, "showpopout": 1, "iv_module": "http:\/\/s.ytimg.com\/yts\/swfbin\/player-vflqv4MLv\/iv_module.swf", "dashmpd": "http:\/\/www.youtube.com\/api\/manifest\/dash\/ipbits\/0\/itag\/0\/as\/fmp4_audio_clear%2Cwebm_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm_sd_hd_clear\/key\/yt5\/fexp\/907050%2C919112%2C930802%2C916623%2C909717%2C932295%2C936912%2C936910%2C923305%2C936913%2C907231%2C907240%2C921090\/cmbypass\/yes\/source\/youtube\/upn\/0t7yjat3QYg\/ip\/49.1.209.214\/sver\/3\/expire\/1388495155\/playback_host\/r3---sn-3pom-bh2l.googlevideo.com\/id\/89880a9a9e254c3c\/signature\/D8692D266CB6D9921A9CE6601CCDFEF7913E8569.62FBBF97517FB45807D140495E6BD0CC8713449F\/sparams\/as%2Ccmbypass%2Cid%2Cip%2Cipbits%2Citag%2Cplayback_host%2Csource%2Cexpire", "iv_load_policy": 1, "oid": "x18ZtwjuRDzLJorT4fA9-w", "iv_invideo_url": "http:\/\/www.youtube.com\/annotations_invideo?legacy=1\u0026plid=AATuztKCJALGKZyY\u0026video_id=iYgKmp4lTDw", "no_afv_instream": "1", "pyv_ad_channels": "yt_mpvid_AATuztKCd9JBASRq+yt_cid_3138177+ivp+ytdevice_1", "ptchn": "iDBY1k3B8_LTTK0xf1NKjg", "referrer": null, "dynamic_allocation_ad_tag": "http:\/\/ad.doubleclick.net\/N4061\/pfadx\/com.ytpwatch.scitech\/main_3138177;sz=WIDTHxHEIGHT;kvid=iYgKmp4lTDw;kpu=TMCnetVideos;kpeid=iDBY1k3B8_LTTK0xf1NKjg;kpid=3138177;mpvid=AATuztKCd9JBASRq;afv=1;afvbase=eJxdkV2PojAUhn-N3DnpB1-94AJwdTOOWTO6inPTVCjSsUAHCoi_fiqbTdxtmpzznHPyNudtyW6UZTTrGqZFXQXQdQCwChlca0tTNfYBv6Wyy7hlpvSoeNBehVLsLHkvMl5bhaYiC7CDPRcCq-pKI9cG0OoaGRRaqxkOZ2hp7jAML2Pd6e7MX9K6NJVJwERxuqxLZcv9YrDSumm4ZLpuAoh93_YgcQnykZUWrKq4DDaiilVp--DmgT1vNZyhiOU9FVWrG86MbnTgjRYpk9R5BoifCaN_CNjP6APvGQn4_xF6bUxl1LRUZgkahvvurtdxRl6jcPf-9aeXmg42S0DvoSZ6NZUz41vKKZxAtTTjOeuknpBLg5oJqdiFW9z46rgeQDZEVlG3OkjZ_BHnqjvPfQw94mLPNv-FHQKsv9LG-8lYmqoyQC4B5liyfqgR4AEHzFBMIIEQPRIMfDAl0HURNiJU6SDcnvES0SEhatX-inav7oq9x9sPX-bO_Xe2HKNou7nk14Wvm3FIl185b9COhZthfklWgv5I5uFAazwIzdjpeB9H73pcF8s34oO0iBfl_PPmOnGcHDtyaNjZtiu93-zUh7c-JG_F6nQhdhL1n-5rlfzMV9u26cE3kpnfvA;dc_backfill=1;dc_yt=1;k5=5_13_32_304_807_901;kclg=1;kclt=1;kga=-1;kgg=-1;klg=ko;ko=p;kr=H;kvz=203;nlfb=1;yt_vrallowed=1;ytcat=28;ytdevice=1;ytexp=907050,919112,930802,916623;!c=3138177;k2=5;k2=13;k2=32;k2=304;k2=807;k2=901;kvlg=en;", "cafe_experiment_id": "56702412", "afv": true, "length_seconds": 2008, "watch_xlb": "http:\/\/s.ytimg.com\/yts\/xlbbin\/watch-strings-ko_KR-vflIAlPhR.xlb", "fexp": "907050,919112,930802,916623,909717,932295,936912,936910,923305,936913,907231,907240,921090", "afv_video_min_cpm": 2690000, "cr": "KR", "pyv_in_related_cafe_experiment_id": "56702414", "ucid": "UCiDBY1k3B8_LTTK0xf1NKjg", "pltype": "content", "fmt_list": "22\/1280x720\/9\/0\/115,18\/640x360\/9\/0\/115,5\/320x240\/7\/0\/0,36\/320x240\/99\/1\/0,17\/176x144\/99\/1\/0", "tk": "1", "show_pyv_in_related": true, "content_owner_name": "iDBY1k3B8_LTTK0xf1NKjg", "tag_for_child_directed": false, "rvs": "view_count=131\u0026title=Building+WebRTC+trunk+for+Android+and+Unix+on+the+VMWare+Ubuntu+Server.\u0026id=A4kr4jrHOXs\u0026author=%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9+%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D1%86%D0%B5%D0%B2\u0026length_seconds=2166,view_count=4%2C960\u0026title=Build+a+simple+WebRTC+Video+conference+in+30+mins+using+XSockets.NET\u0026id=n_g8qp5CTPg\u0026author=Magnus+Thor\u0026length_seconds=1474,view_count=168\u0026title=WebRTC+Keynote%3A++Dave+Jodoin%2C+Thrupoint\u0026id=DErucZc2fEI\u0026author=TMCnetVideos\u0026length_seconds=1118,view_count=1%2C847\u0026title=HTML5+WebRTC%3A+Real+Time+Communications+for+the+Web+at+INET+Bangkok\u0026id=Yf3eNciKddc\u0026author=Internet+Society%2C+North+American+Bureau\u0026length_seconds=4806,view_count=401\u0026title=WebRTC+Motion+Detecting+Baby+Monitor\u0026id=PUNGgOHn4us\u0026author=Chad+Hart\u0026length_seconds=130,view_count=45\u0026title=Ten+Things+CIOs+Need+to+Know+About+WebRTC\u0026id=lp8xWn-Jgyg\u0026author=Constellation+Research\u0026length_seconds=1412,view_count=3%2C511\u0026title=easyRTC+example%3A+Simple+WebRTC+Video+Chat\u0026id=jynBIPkoNNY\u0026author=Priologic+Victoria\u0026length_seconds=263,view_count=601\u0026title=WebRTC+%26+HTML5\u0026id=A6EFqLMEg4Y\u0026author=Ivan+Bandalo\u0026length_seconds=184,view_count=253\u0026title=EarthLink+Carrier+Talks+Wholesale+Telco\u0026id=in4FXesKGf0\u0026author=TMCnetVideos\u0026length_seconds=132,view_count=132\u0026title=WebRTC+Demo+with+VoxeoLabs\u0026id=oBnO5XKnCFw\u0026author=TMCnetVideos\u0026length_seconds=585,view_count=26%2C546\u0026title=WebRTC+SIP+video+call+between+Chrome+and+iPad\u0026id=ro3FFNx7d-g\u0026author=Bossiel+HK\u0026length_seconds=25,view_count=160\u0026title=WebRTC+Demo+with+Thrupoint\u0026id=UOT7bMDy0ps\u0026author=TMCnetVideos\u0026length_seconds=571", "ad_flags": 0, "eventid": "oWbCUquyD-vOmAXqkICoCA", "allow_embed": 1}, "url": "http:\/\/s.ytimg.com\/yts\/swfbin\/player-vflqv4MLv\/watch_as3.swf", "html5": false, "attrs": {"id": "movie_player"}, "url_v9as2": "http:\/\/s.ytimg.com\/yts\/swfbin\/player-vflqv4MLv\/cps.swf", "sts": 16057};</script>      <script>
+        (function() {
+          var encoded = [];
+          for (var key in ytplayer.config.args) {
+            encoded.push(encodeURIComponent(key) + '=' + encodeURIComponent(ytplayer.config.args[key]));
+          }
+          var swf = "      \u003cembed type=\"application\/x-shockwave-flash\"     s\u0072c=\"http:\/\/s.ytimg.com\/yts\/swfbin\/player-vflqv4MLv\/watch_as3.swf\"     name=\"movie_player\"     id=\"movie_player\"    flashvars=\"__flashvars__\"     allowscriptaccess=\"always\" bgcolor=\"#000000\" allowfullscreen=\"true\"\u003e\n  \u003cnoembed\u003e\u003cdiv class=\"yt-alert yt-alert-default yt-alert-error  yt-alert-player\"\u003e  \u003cdiv class=\"yt-alert-icon\"\u003e\n    \u003cimg s\u0072c=\"http:\/\/s.ytimg.com\/yts\/img\/pixel-vfl3z5WfW.gif\" class=\"icon master-sprite\" alt=\"\uc54c\ub9bc \uc544\uc774\ucf58\"\u003e\n  \u003c\/div\u003e\n\u003cdiv class=\"yt-alert-buttons\"\u003e\u003c\/div\u003e\u003cdiv class=\"yt-alert-content\" role=\"alert\"\u003e    \u003cspan class=\"yt-alert-vertical-trick\"\u003e\u003c\/span\u003e\n    \u003cdiv class=\"yt-alert-message\"\u003e\n            \uc774 \ub3d9\uc601\uc0c1\uc744 \ubcf4\ub824\uba74 Adobe Flash Player\uac00 \ud544\uc694\ud569\ub2c8\ub2e4. \u003cbr\u003e\u003ca href=\"http:\/\/get.adobe.com\/flashplayer\/\"\u003eAdobe\uc5d0\uc11c \ub2e4\uc6b4\ub85c\ub4dc\ud558\uc138\uc694.\u003c\/a\u003e\n    \u003c\/div\u003e\n\u003c\/div\u003e\u003c\/div\u003e\u003c\/noembed\u003e\n\n";
+          swf = swf.replace('__flashvars__', encoded.join('&'));
+          document.getElementById("player-api").innerHTML = swf;
+          ytplayer.config.loaded = true
+        })();
+      </script>
+
+
+  <div id="playlist-tray" class="playlist-tray">
+    
+  </div>
+
+  <div class="clear"></div>
+</div>
+<div id="content" class="  content-alignment">    <div id="watch7-container" class="" itemscope itemid="" itemtype="http://schema.org/VideoObject">
+        <link itemprop="url" href="http://www.youtube.com/watch?v=iYgKmp4lTDw">
+    <meta itemprop="name" content="WebRTC Keynote: Hugh Finnan, Google Chrome">
+    <meta itemprop="description" content="Hugh Finnan, Director of Product Management, Google Chrome talks WebRTC at the WebRTC conference and Expo. Check out http://www.webrtcworld.com/ for more inf...">
+    <meta itemprop="paid" content="False">
+
+      <meta itemprop="channelId" content="UCiDBY1k3B8_LTTK0xf1NKjg">
+      <meta itemprop="videoId" content="iYgKmp4lTDw">
+
+      <meta itemprop="duration" content="PT33M28S">
+      <meta itemprop="unlisted" content="False">
+
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <link itemprop="url" href="http://www.youtube.com/user/TMCnetVideos">
+        </span>
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <link itemprop="url" href="https://plus.google.com/102242906501089764807">
+        </span>
+
+    <link itemprop="thumbnailUrl" href="http://i1.ytimg.com/vi/iYgKmp4lTDw/maxresdefault.jpg">
+    <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+      <link itemprop="url" href="http://i1.ytimg.com/vi/iYgKmp4lTDw/maxresdefault.jpg">
+      <meta itemprop="width" content="1280">
+      <meta itemprop="height" content="720">
+    </span>
+
+        <link itemprop="embedURL" href="http://www.youtube.com/v/iYgKmp4lTDw?autohide=1&amp;version=3">
+      <meta itemprop="playerType" content="Flash">
+      <meta itemprop="width" content="1920">
+      <meta itemprop="height" content="1080">
+
+      <meta itemprop="isFamilyFriendly" content="True">
+      <meta itemprop="regionsAllowed" content="AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH,ER,ES,ET,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GS,GT,GU,GW,GY,HK,HM,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PN,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SH,SI,SJ,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TF,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,UM,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW">
+
+
+    <div id="watch7-main-container">
+      <div id="watch7-main" class="clearfix">
+        <div id="watch7-content" class="watch-content">
+              <div class="yt-uix-button-panel">
+        <div id="watch7-headline" class="clearfix  yt-uix-expander yt-uix-expander-collapsed">
+    <h1 id="watch-headline-title" class="yt">
+      
+
+
+  
+
+
+  <span id="eow-title" class="watch-title  yt-uix-expander-head" dir="ltr" title="WebRTC Keynote:  Hugh Finnan, Google Chrome">
+    WebRTC Keynote:  Hugh Finnan, Google Chrome
+  </span>
+
+    </h1>
+  </div>
+
+      <div id="watch7-user-header" class="spf-nolink"><a href="/user/TMCnetVideos?feature=watch" class="yt-user-photo " >    <span class="video-thumb  yt-thumb yt-thumb-48 g-hovercard"
+        data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="https://lh5.googleusercontent.com/-Nvw5nzmSU3M/AAAAAAAAAAI/AAAAAAAAAAA/yv34ExUNR1s/s48-c-k-no/photo.jpg" alt="TMCnetVideos" width="48" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</a><a href="/user/TMCnetVideos?feature=watch" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="feature=watch&amp;ei=oWbCUquyD-vOmAXqkICoCA" dir="ltr" data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg" data-name="watch">TMCnetVideos</a><span class="yt-user-separator">&middot;</span><a class="yt-uix-sessionlink yt-user-videos"             href="/user/TMCnetVideos/videos"             data-sessionlink="feature=watch&amp;ei=oWbCUquyD-vOmAXqkICoCA">동영상 622개</a><br><span id="watch7-subscription-container"><span class=" yt-uix-button-subscription-container with-preferences" ><button onclick=";return false;" aria-role="button" class="yt-uix-subscription-button yt-uix-button yt-uix-button-subscribe-branded yt-uix-button-size-default yt-uix-button-has-icon" type="button" aria-live="polite" aria-busy="false" data-channel-external-id="UCiDBY1k3B8_LTTK0xf1NKjg" data-sessionlink="feature=watch&amp;ei=oWbCUquyD-vOmAXqkICoCA&amp;ved=CAEQmys" data-style-type="branded" data-href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26continue_action%3DQUFFLUhqa1RRaU9JVkR4Nm5haWdIMUFWSW9VRlc3THJNZ3xBQ3Jtc0ttTHF6WnZvQVdJR2xSQVRIUk1DREc0aHNLbDFkN01ueDNxYlpLVGlTV2ZXRmh6ZXNKSVZqTzF0WTBURE5Ec0sxc2tfUzR4ZzZOeTd4U0ctc1ZjdmdyZ3VraUg5T1BPNGhiamlCLUw1ck1KMlZHbFFPZ2tlUldqaExjLUNiY0RpM200LVhKa1VPYTlYTk1wakdxYmJwelZPcUprd0FXUEsxV2tqUlZJWlZWMlp3MWNEcld6MFpGM2hwQlV3cTZEUWZkSjc2cjU%253D%26feature%3Dsubscribe%26hl%3Den%26next%3D%252Fchannel%252FUCiDBY1k3B8_LTTK0xf1NKjg&amp;hl=en&amp;uilel=3&amp;service=youtube" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscribe" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="구독">구독</span><span class="subscribed-label" aria-label="구독 취소">구독중</span><span class="unsubscribe-label" aria-label="구독 취소">구독 취소</span> </span></button><button class="yt-uix-subscription-preferences-button yt-uix-button yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" type="button" onclick=";return false;" data-channel-external-id="UCiDBY1k3B8_LTTK0xf1NKjg" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscription-preferences" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span></button><span class="yt-subscription-button-subscriber-count-branded-horizontal" >184</span>  <span class="yt-subscription-button-disabled-mask" title=""></span>
+  
+  <div class="yt-uix-overlay " data-overlay-style="primary"data-overlay-shape="tiny">
+    
+        <div class="yt-dialog hid">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg">
+        <div class="yt-dialog-fg-content">
+            <div class="yt-dialog-header">
+                <h2 class="yt-dialog-title">
+                        구독 기본설정
+
+
+                </h2>
+            </div>
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+    <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">로드 중...</div>
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div class="subscription-preferences-overlay-content-container">
+    <div class="subscription-preferences-overlay-loading ">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="로드 중 아이콘" title="">
+
+    <span class="yt-spinner-message">
+로드 중...
+    </span>
+  </p>
+
+    </div>
+    <div class="subscription-preferences-overlay-content">
+    </div>
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div id="yt-dialog-working-overlay">
+  </div>
+  <div id="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+      <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">진행 중...</div>
+    </div>
+  </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+</span></span><div id="watch7-views-info">      <span class="watch-view-count " >
+    
+조회수: 514
+  </span>
+
+
+  <div class="video-extras-sparkbars">
+    <div class="video-extras-sparkbar-likes" style="width: 100.0%"></div>
+    <div class="video-extras-sparkbar-dislikes" style="width: 0.0%"></div>
+  </div>
+  <span class="video-extras-likes-dislikes">
+      <img id="watch-stats-like" class="icon-watch-stats-like" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="좋아요">
+  <span class="likes-count">3</span>
+
+    &nbsp;&nbsp;&nbsp;
+      <img id="watch-stats-dislike" class="icon-watch-stats-dislike" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="싫어요">
+  <span class="dislikes-count">0</span>
+
+  </span>
+</div></div>
+        <div id="watch7-action-buttons" class="clearfix">
+    <div id="watch7-sentiment-actions">
+      <span id="watch-like-dislike-buttons" class="yt-uix-button-group " data-vote-state="2" data-button-toggle-group="optional"><span class="yt-uix-clickcard"><button title="" onclick=";return false;" class="yt-uix-clickcard-target yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip" type="button" id="watch-like" data-force-position="true" data-button-toggle="true" data-position="bottomright" data-like-tooltip="이 동영상이 마음에 듭니다." data-orientation="vertical" data-unlike-tooltip="좋아요 취소" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-watch-like" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content">좋아요 </span></button>  <div class="watch7-hovercard yt-uix-clickcard-content">
+    <h3 class="watch7-hovercard-header">YouTube에 로그인</h3>
+    <div class="watch7-hovercard-message">
+      <span class="yt-user-name  g-hovercard" dir="ltr"data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg">TMCnetVideos</span>님의 동영상에 좋아요 표시를 하려면 Google 계정(YouTube, Google+, Gmail, orkut, Picasa, Chrome)으로 로그인하세요.
+
+    </div>
+    <ul class="watch7-hovercard-icon-strip clearfix">
+      <li class="watch7-hovercard-icon">
+        <div class="watch7-hovercard-youtube-icon"></div>
+      </li>
+      <li class="watch7-hovercard-icon">
+        <div class="watch7-hovercard-gplus-icon"></div>
+      </li>
+      <li class="watch7-hovercard-icon">
+        <div class="watch7-hovercard-gmail-icon"></div>
+      </li>
+      <li class="watch7-hovercard-icon">
+        <div class="watch7-hovercard-picasa-icon"></div>
+      </li>
+      <li class="watch7-hovercard-icon">
+        <div class="watch7-hovercard-chrome-icon"></div>
+      </li>
+    </ul>
+    <div class="watch7-hovercard-account-line">
+      <a href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3D__FEATURE__%26hl%3Dko%26next%3D%252Fwatch%253Fv%253DiYgKmp4lTDw&amp;hl=ko&amp;uilel=3&amp;service=youtube" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=oWbCUquyD-vOmAXqkICoCA"><span class="yt-uix-button-content">로그인 </span></a>
+    </div>
+  </div>
+</span><span class="yt-uix-clickcard"><button title="이 동영상이 마음에 들지 않습니다." onclick=";return false;" class="yt-uix-clickcard-target yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip yt-uix-button-empty" type="button" id="watch-dislike" data-force-position="true" data-orientation="vertical" data-position="bottomright" data-button-toggle="true" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-watch-dislike" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="이 동영상이 마음에 들지 않습니다." title=""></span></button>  <div class="watch7-hovercard yt-uix-clickcard-content">
+    <h3 class="watch7-hovercard-header">YouTube에 로그인</h3>
+    <div class="watch7-hovercard-message">
+      <span class="yt-user-name  g-hovercard" dir="ltr"data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg">TMCnetVideos</span>님의 동영상에 싫어요 표시를 하려면 Google 계정(YouTube, Google+, Gmail, orkut, Picasa, Chrome)으로 로그인하세요.
+
+    </div>
+    <ul class="watch7-hovercard-icon-strip clearfix">
+      <li class="watch7-hovercard-icon">
+        <div class="watch7-hovercard-youtube-icon"></div>
+      </li>
+      <li class="watch7-hovercard-icon">
+        <div class="watch7-hovercard-gplus-icon"></div>
+      </li>
+      <li class="watch7-hovercard-icon">
+        <div class="watch7-hovercard-gmail-icon"></div>
+      </li>
+      <li class="watch7-hovercard-icon">
+        <div class="watch7-hovercard-picasa-icon"></div>
+      </li>
+      <li class="watch7-hovercard-icon">
+        <div class="watch7-hovercard-chrome-icon"></div>
+      </li>
+    </ul>
+    <div class="watch7-hovercard-account-line">
+      <a href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3D__FEATURE__%26hl%3Dko%26next%3D%252Fwatch%253Fv%253DiYgKmp4lTDw&amp;hl=ko&amp;uilel=3&amp;service=youtube" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=oWbCUquyD-vOmAXqkICoCA"><span class="yt-uix-button-content">로그인 </span></a>
+    </div>
+  </div>
+</span></span>
+    </div>
+    <div id="watch7-secondary-actions"  class="yt-uix-button-group" data-button-toggle-group="required">
+        <span >
+    <button class="action-panel-trigger  yt-uix-button-toggled yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-tooltip" type="button" title="" onclick=";return false;" data-trigger-for="action-panel-details" data-button-toggle="true" role="button"><span class="yt-uix-button-content">정보 </span></button>
+  </span>
+
+          <span >
+    <button class="action-panel-trigger   yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-tooltip" type="button" title="" onclick=";return false;" data-trigger-for="action-panel-share" data-button-toggle="true" role="button"><span class="yt-uix-button-content">공유 </span></button>
+  </span>
+
+          <span class="yt-uix-clickcard">
+    <button class="action-panel-trigger   yt-uix-clickcard-target yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-tooltip" type="button" title="" onclick=";return false;" data-trigger-for="action-panel-none" data-orientation="vertical" data-upsell="playlist" data-position="bottomleft" data-button-toggle="true" role="button"><span class="yt-uix-button-content">추가 </span></button>
+        <div class="watch7-hovercard yt-uix-clickcard-content">
+    <h3 class="watch7-hovercard-header">YouTube에 로그인</h3>
+    <div class="watch7-hovercard-message">
+      <span class="yt-user-name  g-hovercard" dir="ltr"data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg">TMCnetVideos</span>님의 동영상을 재생목록에 추가하려면 Google 계정(YouTube, Google+, Gmail, orkut, Picasa, Chrome)으로 로그인하세요.
+
+    </div>
+    <ul class="watch7-hovercard-icon-strip clearfix">
+      <li class="watch7-hovercard-icon">
+        <div class="watch7-hovercard-youtube-icon"></div>
+      </li>
+      <li class="watch7-hovercard-icon">
+        <div class="watch7-hovercard-gplus-icon"></div>
+      </li>
+      <li class="watch7-hovercard-icon">
+        <div class="watch7-hovercard-gmail-icon"></div>
+      </li>
+      <li class="watch7-hovercard-icon">
+        <div class="watch7-hovercard-picasa-icon"></div>
+      </li>
+      <li class="watch7-hovercard-icon">
+        <div class="watch7-hovercard-chrome-icon"></div>
+      </li>
+    </ul>
+    <div class="watch7-hovercard-account-line">
+      <a href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3D__FEATURE__%26hl%3Dko%26next%3D%252Fwatch%253Fv%253DiYgKmp4lTDw&amp;hl=ko&amp;uilel=3&amp;service=youtube" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=oWbCUquyD-vOmAXqkICoCA"><span class="yt-uix-button-content">로그인 </span></a>
+    </div>
+  </div>
+
+  </span>
+
+          <span >
+    <button class="action-panel-trigger   yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip yt-uix-button-empty" type="button" title="통계" onclick=";return false;" data-trigger-for="action-panel-stats" data-button-toggle="true" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-action-panel-stats" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="통계" title=""></span></button>
+  </span>
+
+
+        <span >
+    <button class="action-panel-trigger   yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip yt-uix-button-empty" type="button" title="신고" onclick=";return false;" data-trigger-for="action-panel-report" data-button-toggle="true" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-action-panel-report" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="신고" title=""></span></button>
+  </span>
+
+    </div>
+  </div>
+
+        <div id="watch7-action-panels" class="yt-uix-button-panel">
+      <div id="action-panel-details" class="action-panel-content ">
+    <div id="watch-description" class="yt-uix-expander yt-uix-expander-collapsed yt-uix-button-panel">
+      <div id="watch-description-content" >
+        <div id="watch-description-clip">
+          <p id="watch-uploader-info">
+              <strong>게시 시간: <span id="eow-date" class="watch-video-date" >2013. 03. 27.</span>
+</strong>
+          </p>
+          
+          <div id="watch-description-text">
+            <p id="eow-description" >Hugh Finnan, Director of Product Management, Google Chrome talks WebRTC at the WebRTC conference and Expo.  <br /><br />Check out <a href="http://www.webrtcworld.com/" target="_blank" title="http://www.webrtcworld.com/" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://www.webrtcworld.com/</a> for more information.</p>
+          </div>
+            <div id="watch-description-extras">
+    
+    <ul class="watch-extras-section">
+      <li>
+        <h4 class="title">
+카테고리
+        </h4>
+        <div class="content">
+              <p id="eow-category"><a class="yt-uix-sessionlink" data-sessionlink="ei=oWbCUquyD-vOmAXqkICoCA&amp;ved=CAIQxS4" href="/science">과학기술</a></p>
+
+        </div>
+      </li>
+
+
+        <li>
+          <h4 class="title">라이선스</h4>
+          <div class="content">
+              <p id="eow-reuse">
+표준 YouTube 라이선스
+  </p>
+
+          </li>
+        </li>
+    </ul>
+  </div>
+
+        </div>
+        <ul id="watch-description-extra-info">
+          
+        </ul>
+      </div>
+
+      <div id="watch-description-toggle" class="yt-uix-expander-head yt-uix-button-panel">
+        <div id="watch-description-expand" class="expand">
+          <button class="metadata-inline yt-uix-button yt-uix-button-text yt-uix-button-size-default" type="button" onclick=";return false;"  role="button"><span class="yt-uix-button-content">더보기 </span></button>
+        </div>
+        <div id="watch-description-collapse" class="collapse">
+          <button class="metadata-inline yt-uix-button yt-uix-button-text yt-uix-button-size-default" type="button" onclick=";return false;"  role="button"><span class="yt-uix-button-content">간략히 보기 </span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <div id="action-panel-share" class="action-panel-content hid">
+      <div id="watch-actions-share-loading">
+    <div class="action-panel-loading">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="로드 중 아이콘" title="">
+
+    <span class="yt-spinner-message">
+로드 중...
+    </span>
+  </p>
+
+    </div>
+  </div>
+  <div id="watch-actions-share-panel"></div>
+
+  </div>
+
+      <div id="action-panel-addto" class="action-panel-content hid" data-auth-required="true">
+    <div class="action-panel-loading">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="로드 중 아이콘" title="">
+
+    <span class="yt-spinner-message">
+로드 중...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+      <div id="action-panel-stats" class="action-panel-content hid">
+    <div class="action-panel-loading">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="로드 중 아이콘" title="">
+
+    <span class="yt-spinner-message">
+로드 중...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+      <div id="action-panel-report" class="action-panel-content hid" data-auth-required="true">
+    <div class="action-panel-loading">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="로드 중 아이콘" title="">
+
+    <span class="yt-spinner-message">
+로드 중...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+      <div id="action-panel-login" class="action-panel-content hid">
+    <div class="action-panel-login">
+      <a href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3D__FEATURE__%26hl%3Dko%26next%3D%252Fwatch%253Fv%253DiYgKmp4lTDw&amp;hl=ko&amp;uilel=3&amp;service=youtube" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=oWbCUquyD-vOmAXqkICoCA"><span class="yt-uix-button-content">로그인 </span></a>
+    </div>
+  </div>
+
+  <div id="action-panel-ratings-disabled" class="action-panel-content hid">
+      <div id="watch-actions-ratings-disabled" class="watch-actions-panel">
+    <em>평점을 매길 수 없는 동영상입니다.</em>
+  </div>
+
+  </div>
+
+  <div id="action-panel-rental-required" class="action-panel-content hid">
+      <div id="watch-actions-rental-required" class="watch-actions-panel">
+    <strong>동영상을 대여하면 평가할 수 있습니다.</strong>
+  </div>
+
+  </div>
+
+  <div id="action-panel-error" class="action-panel-content hid">
+    <div class="action-panel-error">
+      지금은 이 기능을 사용할 수 없습니다. 나중에 다시 시도해 보세요.
+    </div>
+  </div>
+
+    <div id="watch7-action-panel-footer">
+      <hr class="yt-horizontal-rule ">
+    </div>
+  </div>
+
+  </div>
+
+          <div class="cmt_iframe_holder" data-href="http://www.youtube.com/watch?v=iYgKmp4lTDw" data-viewtype="FILTERED" style="display: none;"></div>
+
+  <div id="watch-discussion">
+    <div class="action-panel-loading">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="로드 중 아이콘" title="">
+
+    <span class="yt-spinner-message">
+로드 중...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+
+        </div>
+        <div id="watch7-sidebar" class="watch-sidebar">
+              <div id="watch7-sidebar-contents" class="watch-sidebar-gutter">
+
+    <div id="watch7-sidebar-discussion"></div>
+
+
+            <div id="watch-channel-brand-div" class="" >
+      <div id="watch-channel-brand-div-text">
+광고
+      </div>
+      <div id="google_companion_ad_div">
+      </div>
+    </div>
+
+
+            <div class="watch-sidebar-section">
+
+    <div class="watch-sidebar-body">
+      <ul id="watch-related" class="video-list">
+        <li class="video-list-item related-list-item"><a href="/watch?v=A4kr4jrHOXs" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=related&ei=oWbCUquyD-vOmAXqkICoCA&ved=CAcQzRooAA"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/A4kr4jrHOXs/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">36:06</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="A4kr4jrHOXs" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="Building WebRTC trunk for Android and Unix on the VMWare Ubuntu Server.">Building WebRTC trunk for Android and Unix on the VMWare Ubuntu Server.</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCxgFHSjGhgt2cOuqD9t8tWw"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCxgFHSjGhgt2cOuqD9t8tWw">Сергей Рязанцев</span></b></span></span><span class="stat view-count">조회수 131회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=n_g8qp5CTPg" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=related&ei=oWbCUquyD-vOmAXqkICoCA&ved=CAgQzRooAQ"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/n_g8qp5CTPg/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">24:34</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="n_g8qp5CTPg" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="Build a simple WebRTC Video conference in 30 mins using XSockets.NET">Build a simple WebRTC Video conference in 30 mins using XSockets.NET</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UC6ofXMkT3RUe-G7wjaGCSWw"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UC6ofXMkT3RUe-G7wjaGCSWw">Magnus Thor</span></b></span></span><span class="stat view-count">조회수 4,960회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=DErucZc2fEI" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=relmfu&ei=oWbCUquyD-vOmAXqkICoCA&ved=CAkQzRooAg"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/DErucZc2fEI/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">18:38</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="DErucZc2fEI" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="WebRTC Keynote:  Dave Jodoin, Thrupoint">WebRTC Keynote:  Dave Jodoin, Thrupoint</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg">TMCnetVideos</span></b></span></span><span class="stat view-count">조회수 168회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=Yf3eNciKddc" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=related&ei=oWbCUquyD-vOmAXqkICoCA&ved=CAoQzRooAw"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/Yf3eNciKddc/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">1:20:06</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="Yf3eNciKddc" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="HTML5 WebRTC: Real Time Communications for the Web at INET Bangkok">HTML5 WebRTC: Real Time Communications for the Web at INET Bangkok</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCKAz4Dasmg848o2klyGkcRA"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCKAz4Dasmg848o2klyGkcRA">Internet Society, North American Bureau</span></b></span></span><span class="stat view-count">조회수 1,847회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=PUNGgOHn4us" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=related&ei=oWbCUquyD-vOmAXqkICoCA&ved=CAsQzRooBA"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/PUNGgOHn4us/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">2:10</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="PUNGgOHn4us" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="WebRTC Motion Detecting Baby Monitor">WebRTC Motion Detecting Baby Monitor</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCBc0BtNrPz6sMrh6Rw6b0CQ"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCBc0BtNrPz6sMrh6Rw6b0CQ">Chad Hart</span></b></span></span><span class="stat view-count">조회수 401회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=lp8xWn-Jgyg" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=related&ei=oWbCUquyD-vOmAXqkICoCA&ved=CAwQzRooBQ"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/lp8xWn-Jgyg/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">23:32</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="lp8xWn-Jgyg" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="Ten Things CIOs Need to Know About WebRTC">Ten Things CIOs Need to Know About WebRTC</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCs0vwq63PfnDZp1fMO0uDJg"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCs0vwq63PfnDZp1fMO0uDJg">Constellation Research</span></b></span></span><span class="stat view-count">조회수 45회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=jynBIPkoNNY" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=related&ei=oWbCUquyD-vOmAXqkICoCA&ved=CA0QzRooBg"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/jynBIPkoNNY/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">4:23</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="jynBIPkoNNY" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="easyRTC example: Simple WebRTC Video Chat">easyRTC example: Simple WebRTC Video Chat</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCl56pQ9ZryLqhbL_jCIa5Fw"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCl56pQ9ZryLqhbL_jCIa5Fw">Priologic Victoria</span></b></span></span><span class="stat view-count">조회수 3,511회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=A6EFqLMEg4Y" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=related&ei=oWbCUquyD-vOmAXqkICoCA&ved=CA4QzRooBw"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/A6EFqLMEg4Y/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">3:04</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="A6EFqLMEg4Y" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="WebRTC &amp; HTML5">WebRTC &amp; HTML5</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCY13Sxm4bSfwCR54rlE_KtA"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCY13Sxm4bSfwCR54rlE_KtA">Ivan Bandalo</span></b></span></span><span class="stat view-count">조회수 601회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=in4FXesKGf0" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=relmfu&ei=oWbCUquyD-vOmAXqkICoCA&ved=CA8QzRooCA"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/in4FXesKGf0/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">2:12</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="in4FXesKGf0" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="EarthLink Carrier Talks Wholesale Telco">EarthLink Carrier Talks Wholesale Telco</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg">TMCnetVideos</span></b></span></span><span class="stat view-count">조회수 253회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=oBnO5XKnCFw" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=relmfu&ei=oWbCUquyD-vOmAXqkICoCA&ved=CBAQzRooCQ"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/oBnO5XKnCFw/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">9:45</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="oBnO5XKnCFw" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="WebRTC Demo with VoxeoLabs">WebRTC Demo with VoxeoLabs</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg">TMCnetVideos</span></b></span></span><span class="stat view-count">조회수 132회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=ro3FFNx7d-g" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=related&ei=oWbCUquyD-vOmAXqkICoCA&ved=CBEQzRooCg"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/ro3FFNx7d-g/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">0:25</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="ro3FFNx7d-g" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="WebRTC SIP video call between Chrome and iPad">WebRTC SIP video call between Chrome and iPad</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UC4KL4ViYiUf80rBi1LOIHbw"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UC4KL4ViYiUf80rBi1LOIHbw">Bossiel HK</span></b></span></span><span class="stat view-count">조회수 26,546회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=UOT7bMDy0ps" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=relmfu&ei=oWbCUquyD-vOmAXqkICoCA&ved=CBIQzRooCw"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/UOT7bMDy0ps/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">9:31</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="UOT7bMDy0ps" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="WebRTC Demo with Thrupoint">WebRTC Demo with Thrupoint</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg">TMCnetVideos</span></b></span></span><span class="stat view-count">조회수 160회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=LbHnHaZWOd4" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=related&ei=oWbCUquyD-vOmAXqkICoCA&ved=CBMQzRooDA"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/LbHnHaZWOd4/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">6:50</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="LbHnHaZWOd4" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="WebRTC Tutorial with Thrupoint Fusion Web">WebRTC Tutorial with Thrupoint Fusion Web</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCRiUgpy93Rdvv5ThmReHRSQ"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCRiUgpy93Rdvv5ThmReHRSQ">ThrupointInfo</span></b></span></span><span class="stat view-count">조회수 830회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=3Ifbqaw5l_I" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=related&ei=oWbCUquyD-vOmAXqkICoCA&ved=CBQQzRooDQ"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/3Ifbqaw5l_I/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">41:24</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="3Ifbqaw5l_I" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="Introduction to WebRTC Apps">Introduction to WebRTC Apps</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCkQX1tChV7Z7l1LFF4L9j_g"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCkQX1tChV7Z7l1LFF4L9j_g">NewCircle Training</span></b></span></span><span class="stat view-count">조회수 3,848회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=jMa5e5yh0yc" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=relmfu&ei=oWbCUquyD-vOmAXqkICoCA&ved=CBUQzRooDg"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/jMa5e5yh0yc/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">7:14</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="jMa5e5yh0yc" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="WebRTC Demo with Add Live">WebRTC Demo with Add Live</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg">TMCnetVideos</span></b></span></span><span class="stat view-count">조회수 142회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=NyTtlxTuiPg" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=relmfu&ei=oWbCUquyD-vOmAXqkICoCA&ved=CBYQzRooDw"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/NyTtlxTuiPg/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">1:02</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="NyTtlxTuiPg" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="Impact Telecom Discusses the Impact of Acquiring Matrix Telecom">Impact Telecom Discusses the Impact of Acquiring Matrix Telecom</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg">TMCnetVideos</span></b></span></span><span class="stat view-count">조회수 125회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=qHAMi-dA9cA" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=related&ei=oWbCUquyD-vOmAXqkICoCA&ved=CBcQzRooEA"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/qHAMi-dA9cA/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">0:44</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="qHAMi-dA9cA" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="Basescu NU vrea unirea cu Basarabia!">Basescu NU vrea unirea cu Basarabia!</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCaG2Ljg38X8TpoybvorJPuQ"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCaG2Ljg38X8TpoybvorJPuQ">Apologetul</span></b></span></span><span class="stat view-count">조회수 2,404회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=n33S29uvl84" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=relmfu&ei=oWbCUquyD-vOmAXqkICoCA&ved=CBgQzRooEQ"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/n33S29uvl84/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">9:35</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="n33S29uvl84" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="WebRTC Demo with Pubnub">WebRTC Demo with Pubnub</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg">TMCnetVideos</span></b></span></span><span class="stat view-count">조회수 356회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=qHpFwdQw2wQ" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=relmfu&ei=oWbCUquyD-vOmAXqkICoCA&ved=CBkQzRooEg"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/qHpFwdQw2wQ/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">6:55</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="qHpFwdQw2wQ" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="Jed Pearson explains Mozilla Persona">Jed Pearson explains Mozilla Persona</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCiDBY1k3B8_LTTK0xf1NKjg">TMCnetVideos</span></b></span></span><span class="stat view-count">조회수 181회</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=hvP-wFJl6kM" class="related-video  yt-uix-sessionlink"  data-sessionlink="feature=related&ei=oWbCUquyD-vOmAXqkICoCA&ved=CBoQzRooEw"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/hvP-wFJl6kM/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">0:47</span>
+
+  <button title="나중에 볼 동영상" onclick=";return false;" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" type="button" data-video-ids="hvP-wFJl6kM" data-button-menu-id="shared-addto-watch-later-login" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="나중에 볼 동영상">
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+</span><span dir="ltr" class="title" title="ScreenCast WebRTC on Android">ScreenCast WebRTC on Android</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCcd9KfufOPArjIjePfBagQQ"data-name="watch-vrec">작성자: <b><span class="g-hovercard" data-ytid="UCcd9KfufOPArjIjePfBagQQ">QuobisTV</span></b></span></span><span class="stat view-count">조회수 596회</span></a></li>
+            <div id="watch-more-related" class="hid">
+    <li id="watch-more-related-loading">
+추가 추천 동영상 로드 중...
+    </li>
+  </div>
+  <button class=" yt-uix-button yt-uix-button-default yt-uix-button-size-default" type="button" onclick=";return false;" id="watch-more-related-button" data-button-action="yt.www.watch.related.loadMore" role="button"><span class="yt-uix-button-content">추천 동영상 더보기 </span></button>
+
+      </ul>
+    </div>   </div> 
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+      <div style="visibility: hidden; height: 0px; padding: 0px; overflow: hidden;">
+      <img src="//www.youtube-nocookie.com/gen_204?attributionpartner=iDBY1k3B8_LTTK0xf1NKjg" border="0" width="1" height="1">
+  </div>
+
+  </div>
+
+</div></div></div></div>  <div id="footer-container" class="yt-base-gutter"><div id="footer"><div id="footer-main"><div id="footer-logo"><a href="/" title="YouTube 홈"><img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="YouTube 홈"></a></div>  <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional">
+      <li>
+          
+  <button class=" yt-uix-button yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon" type="button" onclick=";return false;" id="yt-picker-language-button" data-picker-position="footer" data-button-toggle="true" data-picker-key="language" data-button-action="yt.www.picker.load" data-button-menu-id="arrow-display" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-footer-language" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+언어:
+  </span>
+  한국어
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+
+
+      </li>
+      <li>
+          
+  <button class=" yt-uix-button yt-uix-button-default yt-uix-button-size-default" type="button" onclick=";return false;" id="yt-picker-country-button" data-picker-position="footer" data-button-toggle="true" data-picker-key="country" data-button-action="yt.www.picker.load" data-button-menu-id="arrow-display" role="button"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+국가:
+  </span>
+  한국
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+
+
+      </li>
+      <li>
+          
+  <button class=" yt-uix-button yt-uix-button-default yt-uix-button-size-default" type="button" onclick=";return false;" id="yt-picker-safetymode-button" data-picker-position="footer" data-button-toggle="true" data-picker-key="safetymode" data-button-action="yt.www.picker.load" data-button-menu-id="arrow-display" role="button"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+안전 모드:
+  </span>
+사용 안함
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+
+
+      </li>
+  </ul>
+  <button onclick=";return false;" class="yt-uix-button-reverse yt-google-help-link yt-uix-button yt-uix-button-default yt-uix-button-size-default" type="button" id="google-help" data-ghelp-anchor="google-help"  role="button"><span class="yt-uix-button-content">  <img class="questionmark" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif">
+  <span>도움말</span>
+    <img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif">
+ </span></button>
+      <div id="yt-picker-language-footer"
+      class="yt-picker"
+      style="display: none"
+>
+      <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="로드 중 아이콘" title="">
+
+    <span class="yt-spinner-message">
+로드 중...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-country-footer"
+      class="yt-picker"
+      style="display: none"
+>
+      <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="로드 중 아이콘" title="">
+
+    <span class="yt-spinner-message">
+로드 중...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-safetymode-footer"
+      class="yt-picker"
+      style="display: none"
+>
+      <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="로드 중 아이콘" title="">
+
+    <span class="yt-spinner-message">
+로드 중...
+    </span>
+  </p>
+
+  </div>
+
+</div><div id="footer-links"><ul id="footer-links-primary">  <li><a href="//www.youtube.com/yt/about/ko/">정보</a></li>
+  <li><a href="//www.youtube.com/yt/press/ko/">보도자료 &amp; 블로그</a></li>
+  <li><a href="//www.youtube.com/yt/copyright/ko/">저작권</a></li>
+  <li><a href="//www.youtube.com/yt/creators/ko/">제작자 및 파트너</a></li>
+  <li><a href="//www.youtube.com/yt/advertise/ko/">광고</a></li>
+  <li><a href="//www.youtube.com/yt/dev/ko/">개발자</a></li>
+  <li><a href="https://plus.google.com/+youtube">+YouTube</a></li>
+</ul><ul id="footer-links-secondary">  <li><a href="/t/terms">이용약관</a></li>
+  <li><a href="http://www.google.co.kr/intl/ko/policies/privacy/">개인정보 보호</a></li>
+  <li><a href="//www.youtube.com/yt/policyandsafety/ko/">
+정책 및 안전
+  </a></li>
+  <li><a href="//www.google.com/tools/feedback/intl/ko/error.html" onclick="return yt.www.feedback.start(59);" class="reportbug">의견 보내기</a></li>
+  <li><a href="/testtube">새로운 기능</a></li>
+  <li></li>
+</ul></div></div></div>
+
+
+      <div class="yt-dialog hid" id="feed-privacy-lb">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+    <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">로드 중...</div>
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div id="feed-privacy-dialog">
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div id="yt-dialog-working-overlay">
+  </div>
+  <div id="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+      <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">진행 중...</div>
+    </div>
+  </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div id="shared-addto-watch-later-login" class="hid">
+      나중에 볼 동영상에 추가하려면 <a href="https://accounts.google.com/ServiceLogin?passive=true&continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3Dplaylist%26hl%3Dko%26next%3D%252Fwatch%253Fv%253DiYgKmp4lTDw&hl=ko&uilel=3&service=youtube" class="sign-in-link">로그인</a>하세요.
+
+    </div>
+
+  <div id="shared-addto-menu" style="display: none;" class="hid sign-in">
+      <div class="addto-menu">
+        <div id="addto-list-panel" class="menu-panel active-panel">
+          <span class="addto-playlist-item yt-uix-button-menu-item yt-uix-tooltip sign-in"
+        data-possible-tooltip=""
+        data-tooltip-show-delay="750"
+
+
+>
+<img class="playlist-status" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title="">나중에 볼 동영상에 추가하려면 <a href="https://accounts.google.com/ServiceLogin?passive=true&continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3Dplaylist%26hl%3Dko%26next%3D%252Fwatch%253Fv%253DiYgKmp4lTDw&hl=ko&uilel=3&service=youtube" class="sign-in-link">로그인</a>하세요.
+  </span>
+
+
+  </div>
+  <div id="addto-list-saving-panel" class="menu-panel">
+    <div class="addto-loading loading-content">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="로드 중 아이콘" title="">
+
+    <span class="yt-spinner-message">
+        재생목록 로드 중...
+    </span>
+  </p>
+
+    </div>
+  </div>
+  <div id="addto-list-error-panel" class="menu-panel">
+    <div class="panel-content">
+      <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif">
+      <span class="error-details"></span>
+      <a class="show-menu-link">뒤로</a>
+    </div>
+  </div>
+
+  </div>
+
+  </div>
+<script>if (window.ytcsi) {window.ytcsi.tick("hr", null, '');}</script><script>var ytspf = ytspf || {};ytspf.enabled = false;</script>  <script id="js-3395904476" class="spf" src="//s.ytimg.com/yts/jsbin/spf-vfloWhycd.js" data-loaded="true"></script>
+  <script id="js-3698437330" class="www_base_mod" src="//s.ytimg.com/yts/jsbin/www-vfltBaFhL/www_base_mod.js" data-loaded="true"></script>
+<script>if (window.ytcsi) {window.ytcsi.tick("je", null, '');}</script>      <script>
+    yt.setConfig({
+      'VIDEO_ID': "iYgKmp4lTDw",
+      'THUMB_NON_DELAY_LOAD_COUNT': 0,
+      'THUMB_DELAY_LOAD_RATE_MS': 0,
+      'WAIT_TO_DELAYLOAD_FRAME_CSS': false,
+      'PLAYLIST_INTERSTITIAL': false,
+      'IS_UNAVAILABLE_PAGE': false,
+
+      'JS_PAGE_MODULES': {
+        "\/\/s.ytimg.com\/yts\/jsbin\/www-vfltBaFhL\/www_watch_mod.js": [
+            "\/\/s.ytimg.com\/yts\/jsbin\/www-vfltBaFhL\/www_watch_missilecommand_mod.js",
+          ''         ]
+      },
+
+
+      'REPORTVIDEO_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-reportvideo-vflDyk0N_.js",
+      'REPORTVIDEO_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-watch-reportvideo-vflGtRSQZ.css",
+
+        'IS_RESUMABLE_PLAYBACK': true,
+
+
+      'WATCH_MISSILECOMMAND_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-watch-missilecommand-vfl6e8Vkz.js",
+      'WATCH_MISSILECOMMAND_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-watch-missile-command-vfl52fZea.css",
+
+      'ENABLE_AUTO_LARGE': true    });
+
+    yt.setAjaxToken('insight_ajax', "B3_LXJLS4CHx96VdXPRtP5J3S6J8MTM4ODU1ODM2OUAxMzg4NDcxOTY5");
+    yt.setAjaxToken('guide_ajax', "VnzxVdevE3dpAv1D7k4IEfQeRGt8MTM4ODU1ODM2OUAxMzg4NDcxOTY5");
+    yt.setAjaxToken('promo_ajax_token', "Yd7iaxIcX1eWIMW5D5uWLi7n9yR8MTM4ODU1ODM2OUAxMzg4NDcxOTY5");
+
+      yt.setConfig({
+    'EMBED_HTML_TEMPLATE': "\u003ciframe width=\"__width__\" height=\"__height__\" src=\"__url__\" frameborder=\"0\" allowfullscreen\u003e\u003c\/iframe\u003e",
+    'EMBED_HTML_URL': "\/\/www.youtube.com\/embed\/__videoid__"
+  });
+    yt.setMsg('FLASH_UPGRADE', "\u003cdiv class=\"yt-alert yt-alert-default yt-alert-error  yt-alert-player\"\u003e  \u003cdiv class=\"yt-alert-icon\"\u003e\n    \u003cimg s\u0072c=\"http:\/\/s.ytimg.com\/yts\/img\/pixel-vfl3z5WfW.gif\" class=\"icon master-sprite\" alt=\"\uc54c\ub9bc \uc544\uc774\ucf58\"\u003e\n  \u003c\/div\u003e\n\u003cdiv class=\"yt-alert-buttons\"\u003e\u003c\/div\u003e\u003cdiv class=\"yt-alert-content\" role=\"alert\"\u003e    \u003cspan class=\"yt-alert-vertical-trick\"\u003e\u003c\/span\u003e\n    \u003cdiv class=\"yt-alert-message\"\u003e\n            \uc774 \ub3d9\uc601\uc0c1\uc744 \ubcf4\ub824\uba74 Adobe Flash Player\ub97c \uc5c5\uadf8\ub808\uc774\ub4dc\ud574\uc57c \ud569\ub2c8\ub2e4. \u003cbr\u003e\u003ca href=\"http:\/\/get.adobe.com\/flashplayer\/\"\u003eAdobe\uc5d0\uc11c \ub2e4\uc6b4\ub85c\ub4dc\ud558\uc138\uc694.\u003c\/a\u003e\n    \u003c\/div\u003e\n\u003c\/div\u003e\u003c\/div\u003e");
+  yt.setMsg('PLAYER_FALLBACK', "\ub3d9\uc601\uc0c1\uc744 \uc7ac\uc0dd\ud558\ub824\uba74 Adobe Flash Player \ub610\ub294 HTML5 \uc9c0\uc6d0 \ube0c\ub77c\uc6b0\uc800\uac00 \ud544\uc694\ud569\ub2c8\ub2e4. \u003cbr\u003e \u003ca href=\"http:\/\/get.adobe.com\/flashplayer\/\"\u003e\ucd5c\uc2e0 Flash Player \ub2e4\uc6b4\ub85c\ub4dc\u003c\/a\u003e \u003cbr\u003e \u003ca href=\"\/html5\"\u003eHTML5 \ube0c\ub77c\uc6b0\uc800\ub85c \uc5c5\uadf8\ub808\uc774\ub4dc\ud558\ub294 \ubc29\ubc95\uc5d0 \ub300\ud574 \uc790\uc138\ud788 \uc54c\uc544\ubcf4\uae30\u003c\/a\u003e");
+  yt.setMsg('QUICKTIME_FALLBACK', "\ub3d9\uc601\uc0c1\uc744 \uc7ac\uc0dd\ud558\ub824\uba74 Adobe Flash Player\ub098 QuickTime\uac00 \ud544\uc694\ud569\ub2c8\ub2e4. \u003cbr\u003e \u003ca href=\"http:\/\/get.adobe.com\/flashplayer\/\"\u003e\ucd5c\uc2e0 Flash Player \ub2e4\uc6b4\ub85c\ub4dc\u003c\/a\u003e \u003cbr\u003e \u003ca href=\"http:\/\/www.apple.com\/quicktime\/download\/\"\u003e\ucd5c\uc2e0 QuickTime \ub2e4\uc6b4\ub85c\ub4dc\u003c\/a\u003e");
+  yt.setMsg('AUTOPLAY_MESSAGE', {"case1": "1\ucd08 \ud6c4 \ub2e4\uc74c \ub3d9\uc601\uc0c1 \uc7ac\uc0dd", "other": "#\ucd08 \ud6c4 \ub2e4\uc74c \ub3d9\uc601\uc0c1 \uc7ac\uc0dd"});
+
+
+
+    yt.setConfig({
+      'TIMING_WFF': true,
+      'WATCH_GUIDE_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-guide-vfl_xeAjK.css",
+      'YPC_CAN_RATE_VIDEO': true,
+
+
+
+
+
+        'PLAYER_BOOTSTRAP_HTML5': true,
+
+
+
+      'HL_LOCALE': "ko_KR",
+
+      'TTS_URL': null,
+      'JS_DELAY_LOAD': 0,
+      'LIST_AUTO_PLAY_VALUE': null,
+      'SHUFFLE_VALUE': null,
+      'SKIP_RELATED_ADS': false,
+      'SKIP_TO_NEXT_VIDEO': false,
+      'SPF_PREFETCH': false,
+      'SPF_PREFETCH_MAX': null,
+      'ALLOW_RATINGS': true,
+      'RESUME_COOKIE_NAME': null,
+      'LIST_END_TIME': null,
+      'CONVERSION_CONFIG_DICT': null,
+      'RESOLUTION_TRACKING_ENABLED': false,
+      'MEMORY_TRACKING_ENABLED': false,
+      'WATCH_LEGAL_TEXT_ENABLE_AUTOSCROLL': true,
+      'SHARE_ON_VIDEO_PAUSE': false,
+      'SHARE_ON_VIDEO_END': true,
+      'SHARE_ON_VIDEO_START': false,
+      'ADS_DATA': {"fetch_ads_in_page": false, "show_pyv": true, "pyv_vars": {"iframe_json": "{\"google_ad_type\": \"text\", \"google_ad_client\": \"ca-pub-6219811747049371\", \"google_video_doc_id\": \"yt_iYgKmp4lTDw\", \"google_ad_host_tier_id\": \"3537610\", \"google_eids\": [\"56702414\"], \"google_ad_block\": \"3\", \"google_ad_output\": \"js\", \"google_only_pyv_ads\": true, \"google_loeid\": \"907050,919112,930802,916623\", \"google_ad_host\": \"ca-host-pub-8317963745003590\", \"google_page_url\": \"http:\\\/\\\/www.youtube.com\\\/video\\\/iYgKmp4lTDw\", \"google_max_num_ads\": 1, \"google_lact\": -1, \"google_yt_pt\": \"APb3F2_wX9pGsOBSJ6GaRCPZ8lf5zUdFyBBPMgfkD8trywcFqfer2SaAMw-gXGi_EX-Aw_o3witaaYWzyy7kWKhFL980chCDm-jx65CCXWu9Vrab44ntTMSpZ7KVXLhGYg94XBvj6JnXHfGPsrv0\", \"google_language\": \"ko\", \"google_ad_channel\": \"PyvWatchInRelated+PyvYTWatch+PyvWatchNoAdX+pw+non_lpw+yt_mpvid_AATuztKCd9JBASRq+yt_cid_3138177+ivp+ytdevice_1\"}"}, "gut_vars": {"tag": "\/4061\/ytpwatch\/main_3138177"}, "show_instream": true, "use_gut": true, "log_pyv": false, "show_afv": true, "afc_vars": {"ad_block": "2", "language": "ko", "alternate_ad_url": "http:\/\/www.youtube.com\/ad_frame?id=watch-channel-brand-div", "lact": -1, "ad_client": "ca-pub-6219811747049371", "ad_channel": "0854550287+yt_mpvid_AATuztKCd9JBASRq+yt_cid_3138177+ivp+ytdevice_1+Vertical_5+Vertical_13+Vertical_32+Vertical_304+Vertical_807+Vertical_901+ytps_default+ytel_detailpage+afc_on_page", "ad_host": "ca-host-pub-8317963745003590", "video_doc_id": "yt_iYgKmp4lTDw", "format": "300x250_as", "ad_host_tier_id": "3537610", "ad_type": "image"}, "afv_vars": {"google_ad_format": "300x250_as", "google_eids": ["56702413"], "google_ad_type": "image", "google_loeid": "907050,919112,930802,916623", "google_ad_height": "250", "google_ad_host": "ca-host-pub-8317963745003590", "google_video_doc_id": "yt_iYgKmp4lTDw", "google_page_url": "http:\/\/www.youtube.com\/video\/iYgKmp4lTDw", "google_ad_host_tier_id": "3537610", "google_lact": -1, "google_yt_pt": "APb3F2_wX9pGsOBSJ6GaRCPZ8lf5zUdFyBBPMgfkD8trywcFqfer2SaAMw-gXGi_EX-Aw_o3witaaYWzyy7kWKhFL980chCDm-jx65CCXWu9Vrab44ntTMSpZ7KVXLhGYg94XBvj6JnXHfGPsrv0", "google_language": "ko", "google_ad_block": "2", "google_ad_client": "ca-pub-6219811747049371", "google_ad_channel": "0854550288+yt_mpvid_AATuztKCd9JBASRq+yt_cid_3138177+ivp+ytdevice_1+Vertical_5+Vertical_13+Vertical_32+Vertical_304+Vertical_807+Vertical_901+ytps_default+ytel_detailpage", "google_alternate_ad_url": "http:\/\/www.youtube.com\/ad_frame?id=watch-channel-brand-div"}, "show_afc": false, "show_companion": true, "check_status": false},
+      'PLAYBACK_ID': "AATuztKCJALGKZyY",
+      'IS_ACTIVE_LIVE_VIDEO': false,
+      'IS_DISTILLER': true,
+      'RADIO_ENTRYPOINT_RESUMES_CURRENTLY_PLAYING_VIDEO': false,
+      'WATCH_STATS_RATING_BUTTONS': false,
+      'SHARE_CAPTION': "\uc5c5\ub85c\ub354: TMCnetVideos"
+    });
+
+    yt.setMsg({
+      'LOADING': "\ub85c\ub4dc \uc911..."    });
+
+
+      yt.setMsg({
+    'UNBLOCK_USER': "사용자 차단을 취소하시겠습니까?",
+    'BLOCK_USER': "사용자를 차단하시겠습니까?"
+  });
+  yt.setConfig('BLOCK_USER_AJAX_XSRF', 'session_token=vxRfrsqA9pTB8SwCh0aJzQSCc0p8MTM4ODU1ODM2OUAxMzg4NDcxOTY5');
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+      yt.setConfig({
+    'GUIDED_HELP_LOCALE': "ko_KR",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+
+  </script>
+
+
+<script>yt.setConfig({'EVENT_ID': "oWbCUquyD-vOmAXqkICoCA",'PAGE_NAME': "watch",'LOGGED_IN': false,'SESSION_INDEX': null,'DELEGATED_SESSION_ID': null,'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_HINT_PARAMS': "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.5GL3tg_C6Nc.O\/m=__features__\/rt=j\/d=1\/rs=AItRSTPfsfz-ifAZeiHMk7mKfiGQJuhVFw",'GAPI_LOCALE': "ko_KR",'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'PAGEFRAME_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-pageframe-vfl2mrQyf.js",'JS_COMMON_MODULE': "\/\/s.ytimg.com\/yts\/jsbin\/www-vfltBaFhL\/www_common_mod.js",'PAGE_FRAME_DELAYLOADED_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-pageframedelayloaded-vfl6BqFHU.css",'PREFETCH_CSS_RESOURCES' : ["\/\/s.ytimg.com\/yts\/cssbin\/www-player-vflBjKccE.css",''         ],'PREFETCH_JS_RESOURCES': ["\/\/s.ytimg.com\/yts\/jsbin\/html5player-vflG49soT.js",''         ],'SAFETY_MODE_PENDING': false,'I18N_PLURAL_RULES': function(n) { return 'other'; },'LOCAL_DATE_TIME_CONFIG': {"formatLongDate": "yyyy'\ub144 'MM'\uc6d4 'd'\uc77c 'H:mm", "formatShortDate": "yyyy. MM. d.", "formatWeekdayShortTime": "EE H:mm", "amPms": null, "shortWeekdays": ["\uc77c", "\uc6d4", "\ud654", "\uc218", "\ubaa9", "\uae08", "\ud1a0"], "shortMonths": ["1\uc6d4", "2\uc6d4", "3\uc6d4", "4\uc6d4", "5\uc6d4", "6\uc6d4", "7\uc6d4", "8\uc6d4", "9\uc6d4", "10\uc6d4", "11\uc6d4", "12\uc6d4"], "months": ["1\uc6d4", "2\uc6d4", "3\uc6d4", "4\uc6d4", "5\uc6d4", "6\uc6d4", "7\uc6d4", "8\uc6d4", "9\uc6d4", "10\uc6d4", "11\uc6d4", "12\uc6d4"], "weekdays": ["\uc77c\uc694\uc77c", "\uc6d4\uc694\uc77c", "\ud654\uc694\uc77c", "\uc218\uc694\uc77c", "\ubaa9\uc694\uc77c", "\uae08\uc694\uc77c", "\ud1a0\uc694\uc77c"], "formatLongDateOnly": "yyyy'\ub144 'MM'\uc6d4 'd'\uc77c'"},'PAGE_CL': 58452362,'PAGE_BUILD_TIMESTAMP': "Thu Dec 19 02:54:48 2013 (1387450488)",'UNIVERSAL_HOVERCARDS': true,'FEEDBACK_BUCKET_ID': "Watch",'FEEDBACK_LOCALE_LANGUAGE': "ko",'FEEDBACK_LOCALE_EXTRAS': {"logged_in": false, "is_partner": "", "experiments": "907050,919112,930802,916623,927303,909717,929150,925728,936327,906945,906948,912909,927704,920605,912715,919811,935704,931943,921410,920607,936702,911427,922804,931207,929505,901812,932276,932295,919389,934003,934004,938614,938617,938626,936912,936910,923305,936913,936914,939201,941241,934507,907231,907240,939918,921090,906001", "accept_language": null, "guide_subs": "NA", "is_branded": ""}});yt.setMsg({'ADDTO_WATCH_LATER': "\ub098\uc911\uc5d0 \ubcfc \ub3d9\uc601\uc0c1",'ADDTO_WATCH_LATER_ADDED': "\ucd94\uac00\ub428",'ADDTO_WATCH_LATER_ERROR': "\uc624\ub958"});yt.setAjaxToken('addto_ajax_logged_out', "iagcRs1J-mu2i0CnaztGHy_aExB8MTM4ODU1ODM2OUAxMzg4NDcxOTY5");yt.setAjaxToken('watch_fragments_ajax', "mfrbi3clDsSl8KEYJtumMxBJFwd8MTM4ODU1ODM2OUAxMzg4NDcxOTY5");  yt.setConfig('FEED_PRIVACY_CSS_URL', "\/\/s.ytimg.com\/yts\/cssbin\/www-feedprivacydialog-vflIiktxn.css");
+  yt.setAjaxToken('feed_privacy_ajax', "jif0bU_BImd4hv8aUNwT-P5Hcgx8MTM4ODU1ODM2OUAxMzg4NDcxOTY5");
+  if (yt.www && yt.www.account) {
+    yt.pubsub.subscribe('init', yt.www.account.FeedPrivacyDialog.init);
+  } else {
+    yt.setConfig('FEED_PRIVACY_LIGHTBOX_ENABLED', true);
+  }
+yt.setConfig({'SBOX_JS_URL': "\/\/s.ytimg.com\/yts\/jsbin\/www-searchbox-vfl1WGi8-.js",'SBOX_SETTINGS': {"REQUEST_DOMAIN": "kr", "REQUEST_LANGUAGE": "ko", "USE_HTTPS": false, "EXPERIMENT_ID": -1, "SESSION_INDEX": null, "HAS_ON_SCREEN_KEYBOARD": true, "PSUGGEST_TOKEN": null},'SBOX_LABELS': {"WATCH_NOW_LABEL": "\uc9c0\uae08 \ubcf4\uae30", "SUGGESTION_DISMISS_LABEL": "\ub2eb\uae30", "SUGGESTION_DISMISSED_LABEL": "\ucd94\ucc9c \uac80\uc0c9\uc5b4 \uc0ad\uc81c\ub428", "VIEW_CHANNEL_LABEL": "\ucc44\ub110 \ubcf4\uae30"}});  yt.setConfig({
+    'YPC_LOADER_ENABLED': true,
+    'YPC_LOADER_CONFIGS': "\/ypc_config_ajax",
+    'YPC_LOADER_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-ypc-vfl2d1W-e.js",
+    'YPC_LOADER_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-ypc-vfldrpIdw.css",
+    'YPC_LOADER_CALLBACKS': ['yt.www.ypc.checkout.init', 'yt.www.ypc.subscription.init']
+  });
+  yt.setConfig('GOOGLE_HELP_CONTEXT', "watch");
+</script>    <script>
+ytcsi.span('st', 202);yt.setConfig({'TIMING_ACTION': "watch,watch7ad",'TIMING_INFO': {"yt_ad_an": "aftv,afv,dclk", "yt_li": 0, "ei": "oWbCUquyD-vOmAXqkICoCA", "yt_ad": 1, "yt_spf": 0, "yt_ad_pr": 1, "e": "907050,919112,930802,916623", "yt_lt": "cold"}});    </script>
+<script>yt.setConfig({'XSRF_TOKEN': "C0Pa3qvqSCZ4FTU4byN2ymOGhAF8MTM4ODU1ODM2OUAxMzg4NDcxOTY5",'XSRF_REDIRECT_TOKEN': "1cz6h0QvYubjUkTCqgDG_Vwxn7p8MTM4ODU1ODM2OUAxMzg4NDcxOTY5",'XSRF_FIELD_NAME': "session_token"});</script><script>yt.setConfig('THUMB_DELAY_LOAD_BUFFER', 0);</script><script>if (window.ytcsi) {window.ytcsi.tick("jl", null, '');}</script>  <div id="debug"></div>
+</body></html>
+

@@ -188,7 +188,6 @@ SimpleWebRTC.prototype.setVolumeForAll = function (volume) {
 SimpleWebRTC.prototype.joinRoom = function (name, cb) {
     var self = this;
     this.roomName = name;
-	alert("juuu");
     this.connection.emit('join', name, function (err, roomDescription) {
         if (err) {
             self.emit('error', err);
@@ -5087,10 +5086,9 @@ PeerConnection.prototype.offer = function (constraints, cb) {
             }
         };
     var callback = hasConstraints ? cb : constraints;
-
+	alert('ha_offer');
     // Actually generate the offer
     this.pc.createOffer(
-	alert("ha");
         function (offer) {
             offer.sdp = self._applySdpHack(offer.sdp);
             self.pc.setLocalDescription(offer);
@@ -5156,6 +5154,7 @@ PeerConnection.prototype.close = function () {
 // Internal code sharing for various types of answer methods
 PeerConnection.prototype._answer = function (offer, constraints, cb) {
     var self = this;
+	alert('ha_answer');
     this.pc.setRemoteDescription(new webrtc.SessionDescription(offer));
     this.pc.createAnswer(
         function (answer) {

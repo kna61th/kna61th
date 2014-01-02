@@ -188,6 +188,7 @@ SimpleWebRTC.prototype.setVolumeForAll = function (volume) {
 SimpleWebRTC.prototype.joinRoom = function (name, cb) {
     var self = this;
     this.roomName = name;
+	alert("juuu");
     this.connection.emit('join', name, function (err, roomDescription) {
         if (err) {
             self.emit('error', err);
@@ -5089,6 +5090,7 @@ PeerConnection.prototype.offer = function (constraints, cb) {
 
     // Actually generate the offer
     this.pc.createOffer(
+	alert("ha");
         function (offer) {
             offer.sdp = self._applySdpHack(offer.sdp);
             self.pc.setLocalDescription(offer);
